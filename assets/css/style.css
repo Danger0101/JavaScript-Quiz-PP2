@@ -222,3 +222,22 @@ input {
         transform: scale(1.025);
 }
 
+/* Loading CSS */
+#loader {
+        border: 1.6rem solid rgba(168, 168, 168, 0.212);
+        border-radius: 50%;
+        border-top: 1.6rem solid rgb(255, 199, 58);
+        width: 12rem;
+        height: 12rem;
+        animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+        0% {
+                transform: rotate(0deg);
+        }
+        100% {
+                transform: rotate(360deg);
+        }
+}
+
