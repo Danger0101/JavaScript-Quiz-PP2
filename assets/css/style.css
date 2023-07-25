@@ -157,3 +157,34 @@ h6 {
         background: var(--red-highlight);
 }
 
+/* HUD */
+#hud {
+        display: flex;
+        justify-content: space-evenly;
+        padding: 1.5rem;
+}
+
+.hud-prefix {
+        text-align: center;
+        font-size: 2rem;
+}
+
+.hud-main-text {
+        text-align: center;
+}
+
+#progress-bar {
+        margin-top: 0.5rem;
+        height: 4rem;
+        width: 20rem;
+        border: 0.3rem solid rgb(136, 127, 0);
+        border-radius: 1rem;
+        box-shadow: 0.25rem 0.25rem 1.5rem rgba(109, 101, 65, 0.699);
+}
+
+#progress-bar-full {
+        height: 3.4rem;
+        background-color: rgb(136, 127, 0);
+        width: 0%;
+}
+
