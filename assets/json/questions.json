@@ -1,0 +1,122 @@
+[
+        {
+                "question": "What will 'console.log(1 + 1)' log to console?",
+                "choice1": "1",
+                "choice2": "11",
+                "choice3": "2",
+                "choice4": "Null",
+                "answer": 3
+        },
+        {
+                "question": "What will 'console.log(1 + '1')' log to console?",
+                "choice1": "1",
+                "choice2": "11",
+                "choice3": "2",
+                "choice4": "Null",
+                "answer": 2
+        },
+        {
+                "question": "What tag do you need to use in HTML to allow your scritp to run?",
+                "choice1": "<js>",
+                "choice2": "<style>",
+                "choice3": "<link>",
+                "choice4": "<script>",
+                "answer": 4
+        },
+        {
+                "question": "Is JavaScript related to Java othen then both being coding languages?",
+                "choice1": "yes",
+                "choice2": "No",
+                "choice3": "They are the same",
+                "choice4": "JavaScript is a lesser version of Java",
+                "answer": 2
+        },
+        {
+                "question": "What does '=>' mean?",
+                "choice1": "That way",
+                "choice2": "comment",
+                "choice3": "Arrow Function",
+                "choice4": "Its not used in Java Script",
+                "answer": 3
+        },
+        {
+                "question": "What will 'console.log(10 % 5)' log to console?",
+                "choice1": "2",
+                "choice2": "0",
+                "choice3": "5",
+                "choice4": "Null",
+                "answer": 2
+        },
+        {
+                "question": "Which built-in method is used to find the index of the first occurrence of a specified element in an array?",
+                "choice1": "findIndex()",
+                "choice2": "search()",
+                "choice3": "indexOf()",
+                "choice4": "find()",
+                "answer": 3
+        },
+        {
+                "question": "What is the correct way to add a new element to the end of an array in JavaScript?",
+                "choice1": "array.append(newElement)",
+                "choice2": "array.add(newElement)",
+                "choice3": "array.insert(newElement)",
+                "choice4": "array.push(newElement)",
+                "answer": 4
+        },
+        {
+                "question": "The JavaScript Math object provides which of the following constants?",
+                "choice1": "PI",
+                "choice2": "E",
+                "choice3": "SQRT2",
+                "choice4": "All The Above",
+                "answer": 4
+        },
+        {
+                "question": "Which method is used to convert a JavaScript object to a JSON string?",
+                "choice1": "stringify()",
+                "choice2": "toJSONString()",
+                "choice3": "parseJSON()",
+                "choice4": "convertToJSON()",
+                "answer": 1
+        },
+        {
+                "question": "What does the '===' operator do in JavaScript?",
+                "choice1": "It assigns a value to a variable",
+                "choice2": "11",
+                "choice3": "It checks for strict equality, meaning both value and type must be the same",
+                "choice4": "It checks for inequality",
+                "answer": 3
+        },
+        { 
+                "question": "What will 'console.log('Hello ' + 2 + 3)' log to console?",
+                "choice1": "NaN",
+                "choice2": "Hello 5",
+                "choice3": "Hello 23",
+                "choice4": "Hello 2 3",
+                "answer": 3
+        },
+        {
+                "question": "What will 'console.log(1 + '2' + 3)' log to console?",
+                "choice1": "123",
+                "choice2": "33",
+                "choice3": "3",
+                "choice4": "Null",
+                "answer": 1
+        },
+        {
+                "question": "What is the purpose of the addEventListener() method in JavaScript?",
+                "choice1": "To remove an event listener from an element",
+                "choice2": "To trigger a specific event on an element",
+                "choice3": "To listen for events on the document object",
+                "choice4": "To attach an event handler to an element",
+                "answer": 4
+        },
+        {
+                "question": "What will 'console.log(typeof(1 + 'hello world' -1 * 2))' log to console?",
+                "choice1": "Undefiined",
+                "choice2": "NaN",
+                "choice3": "Number",
+                "choice4": "String",
+                "answer": 3
+        }
+]
