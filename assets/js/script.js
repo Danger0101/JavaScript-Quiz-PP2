@@ -35,6 +35,26 @@ function startQuiz() {
 }
 
 function getNewQuestion() {
+        if (availableQuestions.length === 0 || questionCounter > maxQuestions - 1) {
+                localStorage.setItem("mostRecentScore", score);
+                // go to end.html
+                return window.location.assign('end.html');
+        }
+        questionCounter++;
+        progressText.innerText = `Question: ${questionCounter} / ${maxQuestions}`;
+        // Update and fill the progress bar
+        progressBarFull.style.width = `${(questionCounter / maxQuestions) * 100}%`;
+
+        const questionIndex = Math.floor(Math.random() * availableQuestions.length);
+        currentQuestion = availableQuestions[questionIndex];
+        question.innerText = currentQuestion.question;
+
+        choices.forEach((choice) => {
+                const number = choice.dataset['number'];
+                choice.innerText = currentQuestion['choice' + number];
+        });
+        availableQuestions.splice(questionIndex, 1);
+        acceptingAnswers = true;
 }
 
 choices.forEach(choice => {
