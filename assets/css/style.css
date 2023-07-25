@@ -206,3 +206,19 @@ input {
         box-shadow: 1.25rem 1.25rem 1.5rem rgba(109, 101, 65, 0.699);
 }
 
+/* Leaderboard */
+#leaderboard-list {
+        list-style: none;
+        padding-left: 0;
+        margin-bottom: 4rem;
+}
+
+.high-score {
+        font-size: 2.8rem;
+        margin-bottom: 0.5rem;
+}
+
+.high-score:hover {
+        transform: scale(1.025);
+}
+
