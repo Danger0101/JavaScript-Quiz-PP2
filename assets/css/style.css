@@ -241,3 +241,35 @@ input {
         }
 }
 
+@media screen and (max-width: 800px) {
+        h1 {
+                font-size: 2.6rem;
+        }
+
+        h2 {
+                font-size: 2.4rem;
+        }
+        h3 {
+                font-size: 2.2rem;
+        }
+        P, li, a {
+                font-size: 1.8rem
+        }
+}
+
+/* For Screens 450px and bellow */
+@media screen and (max-width: 450px) {
+        h1 {
+                font-size: 2.2rem;
+        }
+
+        h2 {
+                font-size: 2rem;
+        }
+        h3 {
+                font-size: 1.8rem;
+        }
+        P, li, a {
+                font-size: 1.4rem
+        }
+}
