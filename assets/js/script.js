@@ -26,6 +26,12 @@ const correctBonus = 10;
 const maxQuestions = 15;
 
 function startQuiz() {
+        questionCounter = 0;
+        score = 0;
+        availableQuestions = [...questions]
+        getNewQuestion();
+        quiz?.classList.remove('hidden');
+        loader?.classList.add('hidden');
 }
 
 function getNewQuestion() {
