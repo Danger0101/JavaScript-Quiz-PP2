@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Lugrasimo&display=swap');
+
+:root{
+        background: radial-gradient(rgba(255, 255, 0, 0.69), rgba(255, 255, 255, 0.37));
+        font-size: 62.5%;
+        --text-color: color: rgb(8, 8, 8);
+        --golden-button: linear-gradient(15deg, rgb(218, 165, 32), rgb(248, 248, 92), goldenrod);
+        --red-highlight: linear-gradient(15deg, rgba(218, 32, 32, 0.6), rgba(248, 92, 92, 0.6), rgba(218, 32, 32, 0.6));
+        --green-highlight: linear-gradient(15deg, rgba(0, 255, 0, 0.568), rgba(153, 205, 50, 0.863), rgba(0, 255, 0, 0.568));
+}
+
+* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Lugrasimo', cursive;
+        color: var(--text-color);
+}
+
+h1, h2, h3, h4, h5, h6 {
+        margin-bottom: 1rem;
+}
+
+h1 {
+        font-size: 5.4rem;
+        color: var(--text-color);
+        margin-bottom: 5rem;
+        text-align: center;
+}
+
+h1 > span {
+        font-size: 2.4rem;
+        font-weight: 500;
+}
+
+h2 {
+        font-size: 4.4rem;
+        font-weight: 700;
+        margin-bottom: 4rem;
+}
+
+h3 {
+        font-size: 2.8rem;
+        font-weight: 500;
+}
+
+h4 {
+        font-size: 2.4rem;
+        font-weight: 500;
+}
+
+h5 {
+        font-size: 2.2rem;
+        font-weight: 500;
+}
+
+h6 {
+        font-size: 2rem;
+        font-weight: 500;
+}
+
