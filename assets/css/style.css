@@ -129,3 +129,31 @@ h6 {
         text-align: center;
 }
 
+/* Quiz specific CSS */
+.choice-container {
+        display: flex;
+        margin-bottom: 0.5rem;
+        width: 100%;
+        font-size: 1.8rem;
+        border: 0.1rem solid rgba(25, 25, 0, 0.37);
+        background: linear-gradient(25deg, linen, beige, linen);
+}
+.choice-prefix {
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        padding: 1.5rem 1em;
+        background: var(--golden-button);
+}
+
+.choice-text {
+        padding: 1.5rem;
+        width: 100%;
+}
+
+.correct {
+        background: var(--green-highlight);
+}
+
+.incorrect {
+        background: var(--red-highlight);
+}
+
