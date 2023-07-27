@@ -36,3 +36,27 @@ Page will load and show your score where you will be able to save your score to 
 
 This will show the leaderboard data upon load.
 ---
+## Testing
+### How I tested
+- Google Chrome (various resolutions)
+- Samsung A41 Phone (image is slightly outdated new paragrap texts)
+
+![Samsung A41 Phone]()
+
+- Teclast Tablet (image is slightly outdated new paragrap texts)
+
+![Samsung A41 Phone]()
+
+### bugs encountered
+
+| Bugs/Issues Encountered          | How problem was fixed                               | Fixed Y(yes)/N(no) |
+|:--------------------------------:|:---------------------------------------------------:|--------------------|
+| Play button was not loading quiz | was a missing bracket that was deleted accidentally | Y                  |
+| Questions Were Not Displaying    | Was a typo in json file name in script.js           | Y                  |
+| Issue placeholder                |                                                     |                    |
+| Issue placeholder                |                                                     |                    |
+| Issue placeholder                |                                                     |                    |
+| Issue placeholder                |                                                     |                    |
+| Issue placeholder                |                                                     |                    |
+
+---
