@@ -156,3 +156,14 @@ Used github pages [View Site here]()
 - My wife who’s been supper supportive of this change in career for me and just being out right amazing we will get her into this one way or another I am sure.
 
 - Code Institute for providing an excellent accelerated learning platform worth every penny.
+---
+## Future feature ideas
+| **Features to add** | **Added Y(yes)/N(no)** |
+|:-------------------:|--------------------|
+| Add more questions          | N |
+| Add a difficulty picker     | N |
+| Added a database for scores | N |
+| Backend database for score keeping | N |
+| Seperate leaderboards based on difficulty | N |
+| How to play button that opens a div on how to play the quiz | N |
+| Footer with links to author | N |
