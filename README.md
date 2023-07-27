@@ -60,3 +60,58 @@ This will show the leaderboard data upon load.
 | Issue placeholder                |                                                     |                    |
 
 ---
+
+## Validation testing
+### CSS
+-checked with [W3 CSS Validator](https://jigsaw.w3.org/css-validator/) Any CSS issues?
+
+![W3 CSS Validation Image]()
+
+### HTML
+- checked with [W3 HTML Validator]() were there any warnings or errors?
+
+![W3 HTML Validation Image]()
+
+### Contrast
+- Checked all pages with [A11Y contrast checker](https://color.a11y.com/) Any contrast issues?
+
+![Contrast checker Image]()
+
+### JavaScript
+
+### Index.html
+**Chrome lighthouse desktop**
+
+![Screencap index.html lighthouse desktop]()
+
+**Chrome mobile lighthouse**
+
+![Screencap index.html lighthouse mobile]()
+
+### Quiz.html
+**Chrome lighthouse Desktop**
+
+![Screencap quiz.html lighthouse desktop]()
+
+**Chrome lighthouse mobile**
+
+![Screencap quiz.html lighthouse mobile]()
+
+### End.html
+**Chrome lighthouse Desktop**
+
+![Screencap end.html lighthouse desktop]()
+
+**Chrome lighthouse mobile**
+
+![Screencap reviews.html lighthouse mobile]()
+
+### Leaderboard.html
+**Chrome lighthouse Desktop**
+
+![Screencap leaderboard.html lighthouse desktop]()
+
+**Chrome lighthouse mobile**
+
+![Screencap signup.html lighthouse mobile]()
+
