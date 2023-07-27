@@ -133,3 +133,16 @@ Used github pages [View Site here]()
 - MS Paint
 - Gimp version 2.10.22
 - Github Desktop App
+
+## Wireframes
+### Index.html
+![index.html wireframe]()
+
+### Quiz.html
+![quiz.html wireframe]()
+
+### End.html
+![end.html wireframe]()
+
+### Leaderboard.html
+![leaderboard.html wireframe]()
