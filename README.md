@@ -118,3 +118,18 @@ This will show the leaderboard data upon load.
 ## Deployment
 Used github pages [View Site here]()
 
+## Technology used
+- HTML
+- CSS
+- JavaScript
+- Json
+- Fontawesome
+- Google Fonts
+- Visual Studios Code (VSCode)
+- Github
+- Hypervisor
+- Git
+- Gyzo
+- MS Paint
+- Gimp version 2.10.22
+- Github Desktop App
