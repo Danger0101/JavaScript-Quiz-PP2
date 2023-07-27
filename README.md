@@ -146,3 +146,13 @@ Used github pages [View Site here]()
 
 ### Leaderboard.html
 ![leaderboard.html wireframe]()
+
+## Credits
+**Code related**
+- [dcode](https://www.youtube.com/watch?v=mntgaH5x-GQ&t=95s) for how to add a colored navigation bar.
+
+- W3Schools for inspiration on the loading CSS for use on quiz page.
+
+- My wife who’s been supper supportive of this change in career for me and just being out right amazing we will get her into this one way or another I am sure.
+
+- Code Institute for providing an excellent accelerated learning platform worth every penny.
