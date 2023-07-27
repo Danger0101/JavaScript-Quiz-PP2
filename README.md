@@ -19,3 +19,20 @@ JavaScript quiz made to showcase skills using JavaScript, HTML, and CSS. The pur
 - As a user, I want to see a message if my score is not high enough to make it to the leaderboard.
 - As a user, I want to be able to go back to the main menu from the leaderboard.
 
+## Features
+### Index
+
+Landing page of JavaScript Showdown. It displays a play button when pressed that starts the quiz. Also visible is a leaderboard button which will take you to the leaderboard page.
+---
+### Quiz
+
+This page starts with a loading animation which will be hidden when the quiz has fully loaded. From here a user will select an answer and it will highlight red if it is wrong or green if its correct and after 1 second it will load the next question. There is a HUD that will diplay the score and current question with a progress bar. After the final question it will take you to the end page.
+---
+### End
+
+Page will load and show your score where you will be able to save your score to the leaderboard. There is a input field for the username and a submit button to save the score.
+---
+### Leaderboard
+
+This will show the leaderboard data upon load.
+---
