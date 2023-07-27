@@ -50,7 +50,7 @@ This will show the leaderboard data upon load.
 ### bugs encountered
 
 | Bugs/Issues Encountered          | How problem was fixed                               | Fixed Y(yes)/N(no) |
-|:--------------------------------:|:---------------------------------------------------:|--------------------|
+|:--------------------------------:|:---------------------------------------------------:|:------------------:|
 | Play button was not loading quiz | was a missing bracket that was deleted accidentally | Y                  |
 | Questions Were Not Displaying    | Was a typo in json file name in script.js           | Y                  |
 | Issue placeholder                |                                                     |                    |
@@ -159,7 +159,7 @@ Used github pages [View Site here]()
 ---
 ## Future feature ideas
 | **Features to add** | **Added Y(yes)/N(no)** |
-|:-------------------:|--------------------|
+|:-------------------:|:--------------------:|
 | Add more questions          | N |
 | Add a difficulty picker     | N |
 | Added a database for scores | N |
