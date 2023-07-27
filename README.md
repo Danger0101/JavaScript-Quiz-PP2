@@ -115,3 +115,6 @@ This will show the leaderboard data upon load.
 
 ![Screencap signup.html lighthouse mobile]()
 
+## Deployment
+Used github pages [View Site here]()
+
