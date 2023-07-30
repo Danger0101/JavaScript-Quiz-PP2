@@ -160,8 +160,13 @@ Used github pages [View Site here]()
 ## Future feature ideas
 | **Features to add** | **Added Y(yes)/N(no)** |
 |:-------------------:|:--------------------:|
-| Add more questions          | N |
-| Add a difficulty picker     | N |
+| Pages for menu, leaderboard, quiz, and an end page | Y |
+| Fifteen Quiz questions to start | Y |
+| HUD to show score and question progress | Y |
+| Leaderboard which uses local storage (svae/load) | Y |
+| Loader to display whil quiz loads up | Y |
+| Add more questions | N |
+| Add a difficulty picker | N |
 | Added a database for scores | N |
 | Backend database for score keeping | N |
 | Seperate leaderboards based on difficulty | N |
