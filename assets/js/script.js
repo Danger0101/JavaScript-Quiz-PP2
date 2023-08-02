@@ -23,7 +23,7 @@ fetch('assets/json/questions.json').then(res => {
 });
 
 const correctBonus = 10;
-const maxQuestions = 15;
+const maxQuestions = 10;
 
 function startQuiz() {
         questionCounter = 0;
