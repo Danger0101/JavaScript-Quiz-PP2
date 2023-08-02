@@ -11,7 +11,9 @@ let acceptingAnswers = false;
 let score = 0;
 let questionCounter = 0;
 let availableQuestions = [];
-
+/**
+ * Grabs questions from a json file
+ */
 let questions = [];
 fetch('assets/json/questions.json').then(res => {
         return res.json();
@@ -24,7 +26,9 @@ fetch('assets/json/questions.json').then(res => {
 
 const correctBonus = 10;
 const maxQuestions = 10;
-
+/**
+ * Function to start the quiz
+ */
 function startQuiz() {
         questionCounter = 0;
         score = 0;
@@ -33,7 +37,9 @@ function startQuiz() {
         quiz?.classList.remove('hidden');
         loader?.classList.add('hidden');
 }
-
+/**
+ * Function pulls the next question at random
+ */
 function getNewQuestion() {
         if (availableQuestions.length === 0 || questionCounter > maxQuestions - 1) {
                 localStorage.setItem("mostRecentScore", score);
@@ -56,7 +62,11 @@ function getNewQuestion() {
         availableQuestions.splice(questionIndex, 1);
         acceptingAnswers = true;
 }
-
+/**
+ * Checks wether or not users chosen answer is correct or incorrect
+ * Correct answers highlight in green
+ * Incorrect answers highlight in red
+ */
 choices.forEach(choice => {
         choice.addEventListener('click', e => {
                 if (!acceptingAnswers) return;
@@ -78,7 +88,9 @@ choices.forEach(choice => {
                 }, 1000);
         });
 });
-
+/**
+ * Function increases the score when answer is correct
+ */
 function incrementScore(num) {
         score += num;
         scoreText.innerText = score;

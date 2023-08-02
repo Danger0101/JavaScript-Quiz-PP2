@@ -6,11 +6,15 @@ const highScores = JSON.parse(localStorage.getItem('highScores')) || [];
 const leaderboardMax= 5;
 
 finalScore.innerText = mostRecentScore;
-
+/**
+ * Looking for a username to be entered
+ */
 username.addEventListener('keyup', () => {
         saveScoreBtn.disabled = !username.value;
 });
-
+/**
+ * Saves highscore locally with the input username
+ */
 saveHighScore = (e) => {
         e.preventDefault();
         const score = {
