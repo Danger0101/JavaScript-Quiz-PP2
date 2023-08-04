@@ -62,7 +62,7 @@ h6 {
 .container {
         padding: 2rem;
         width: 100vw;
-        height: 90vh;
+        height: 95vh;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -237,6 +237,8 @@ footer {
         justify-content: center;
         align-items: baseline;
         font-size: 5rem;
+        height: 10vh;
+        width: 100vw;
 }
 
 footer a {
@@ -266,6 +268,9 @@ footer a {
         P, li, a {
                 font-size: 1.8rem
         }
+        footer a {
+                font-size: 4rem;
+        }
 }
 
 /* For Screens 450px and bellow */
@@ -282,5 +287,8 @@ footer a {
         }
         P, li, a {
                 font-size: 1.4rem
+        }
+        footer a {
+                font-size: 2.5rem;
         }
 }
