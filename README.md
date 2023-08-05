@@ -65,7 +65,7 @@ This will show the leaderboard data upon load.
 ### CSS
 -checked with [W3 CSS Validator](https://jigsaw.w3.org/css-validator/) Any CSS issues?
 
-![W3 CSS Validation Image]()
+![W3 CSS Validation Image](./assets/images/readme/cssvalidation/cssvalidation.png)
 
 ### HTML
 - checked with [W3 HTML Validator](https://validator.w3.org/) were there any warnings or errors?
