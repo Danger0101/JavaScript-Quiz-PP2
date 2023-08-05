@@ -3,7 +3,7 @@
 :root{
         background: radial-gradient(rgba(255, 255, 0, 0.69), rgba(255, 255, 255, 0.37));
         font-size: 62.5%;
-        --text-color: color: rgb(8, 8, 8);
+        --text-color: rgb(8, 8, 8);
         --golden-button: linear-gradient(15deg, rgb(218, 165, 32), rgb(248, 248, 92), goldenrod);
         --red-highlight: linear-gradient(15deg, rgba(218, 32, 32, 0.6), rgba(248, 92, 92, 0.6), rgba(218, 32, 32, 0.6));
         --green-highlight: linear-gradient(15deg, rgba(0, 255, 0, 0.568), rgba(153, 205, 50, 0.863), rgba(0, 255, 0, 0.568));
