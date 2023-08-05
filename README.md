@@ -68,14 +68,27 @@ This will show the leaderboard data upon load.
 ![W3 CSS Validation Image]()
 
 ### HTML
-- checked with [W3 HTML Validator]() were there any warnings or errors?
+- checked with [W3 HTML Validator](https://validator.w3.org/) were there any warnings or errors?
 
-![W3 HTML Validation Image]()
+**Index.html**
+![W3 HTML Validation Image Index Page](assets/images/readme/htmlvalidation/indexvalidation.png)
+
+**Quiz.html**
+![W3 HTML Validation Image Quiz Page](assets/images/readme/htmlvalidation/quizvalidation.png)
+
+**End.html**
+![W3 HTML Validation Image End Page](assets/images/readme/htmlvalidation/endvalidation.png)
+
+**Leaderboard.html**
+![W3 HTML Validation Image Leaderboard Page](assets/images/readme/htmlvalidation/leaderboardvalidation.png)
+
+**404.html**
+![W3 HTML Validation Image 404 Page](./assets/images/readme/htmlvalidation/404validation.png)
 
 ### Contrast
 - Checked all pages with [A11Y contrast checker](https://color.a11y.com/) Any contrast issues?
 
-![Contrast checker Image]()
+![Contrast checker Image](./assets/images/readme/contrast/colorcontrasttest.png)
 
 ### JavaScript
 
