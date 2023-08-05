@@ -82,38 +82,47 @@ This will show the leaderboard data upon load.
 ### Index.html
 **Chrome lighthouse desktop**
 
-![Screencap index.html lighthouse desktop]()
+![Screencap index.html lighthouse desktop](./assets/images/readme/lighthouse/index/indexdesktoplh.png)
 
 **Chrome mobile lighthouse**
 
-![Screencap index.html lighthouse mobile]()
+![Screencap index.html lighthouse mobile](./assets/images/readme/lighthouse/index/indexmobilelh.png)
 
 ### Quiz.html
 **Chrome lighthouse Desktop**
 
-![Screencap quiz.html lighthouse desktop]()
+![Screencap quiz.html lighthouse desktop](./assets/images/readme/lighthouse/quiz/quizdesktoplh.png)
 
 **Chrome lighthouse mobile**
 
-![Screencap quiz.html lighthouse mobile]()
+![Screencap quiz.html lighthouse mobile](./assets/images/readme/lighthouse/quiz/quizmobilelh.png)
 
 ### End.html
 **Chrome lighthouse Desktop**
 
-![Screencap end.html lighthouse desktop]()
+![Screencap end.html lighthouse desktop](./assets/images/readme/lighthouse/end/endmobilelh.png)
 
 **Chrome lighthouse mobile**
 
-![Screencap reviews.html lighthouse mobile]()
+![Screencap reviews.html lighthouse mobile](./assets/images/readme/lighthouse/end/endmobilelh.png)
 
 ### Leaderboard.html
 **Chrome lighthouse Desktop**
 
-![Screencap leaderboard.html lighthouse desktop]()
+![Screencap leaderboard.html lighthouse desktop](./assets/images/readme/lighthouse/leaderboard/leaderdesktoplh.png)
 
 **Chrome lighthouse mobile**
 
-![Screencap signup.html lighthouse mobile]()
+![Screencap signup.html lighthouse mobile](./assets/images/readme/lighthouse/leaderboard/leadermobilelh.png)
+
+### 404.html
+**Chrome lighthouse Desktop**
+
+![Screencap leaderboard.html lighthouse desktop](./assets/images/readme/lighthouse/404/404desktoplh.png)
+
+**Chrome lighthouse mobile**
+
+![Screencap signup.html lighthouse mobile](./assets/images/readme/lighthouse/404/404mobilelh.png)
 
 ## Deployment
 Used github pages [View Site here]()
