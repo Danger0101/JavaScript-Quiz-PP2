@@ -209,10 +209,9 @@ Used github pages [View Site here]()
 | HUD to show score and question progress | Y |
 | Leaderboard which uses local storage (svae/load) | Y |
 | Loader to display whil quiz loads up | Y |
+| Footer with links to author | Y |
 | Add more questions | N |
 | Add a difficulty picker | N |
-| Added a database for scores | N |
 | Backend database for score keeping | N |
 | Seperate leaderboards based on difficulty | N |
 | How to play button that opens a div on how to play the quiz | N |
-| Footer with links to author | N |
