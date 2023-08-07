@@ -1,6 +1,7 @@
 # JavaScript-Quiz-PP2
 
-JavaScript quiz made to showcase skills using JavaScript, HTML, and CSS. The purpose is to allow users to test their knowlesge of JavaScript.
+JavaScript quiz made to showcase skills using JavaScript, HTML, and CSS. The purpose is to allow users to test their knowlesge of JavaScript. It uses 4 pages to accomplish the end goal of a functioning JavaScript quiz. With three seperate scripts. The main reason for this multy page set up rather then 1 page is cleaner code as it keeps scripts a bit cleaner and they only need to contain whats needed for each page. While a single page can be faster in some cases I feel this layout suited my intentions better. As the inital load of the page is faster then if everything was all jumbled together also means quiz resets each go around or if user refreshes the page.
+
 ---
 ## User Stories
 - As a user, I want to be able to start the quiz and see the first question.
@@ -51,7 +52,7 @@ This will show the leaderboard data upon load.
 | JavaScript Validation script.js | Y |
 | JavaScript Validation end.js | Y |
 | JavaScript Validation highscores.js | Y |
-| HTML Validation | N |
+| HTML Validation | Y |
 |  |  |
 |  |  |
 |  |  |
@@ -60,14 +61,14 @@ This will show the leaderboard data upon load.
 |  |  |
 |  |  |
 |  |  |
-- Google Chrome (various resolutions)
+
 - Samsung A41 Phone (image is slightly outdated new paragrap texts)
 
-![Samsung A41 Phone]()
+![Samsung A41 Phone](./assets/images/readme/phone.png)
 
 - Teclast Tablet (image is slightly outdated new paragrap texts)
 
-![Samsung A41 Phone]()
+![Teclast Tablet](./assets/images/readme/tablet.png)
 
 ### bugs encountered
 
@@ -180,20 +181,25 @@ Used github pages [View Site here]()
 
 ## Wireframes
 ### Index.html
-![index.html wireframe]()
+![index.html wireframe](./assets/images/readme/wireframes/indexwireframe.png)
 
 ### Quiz.html
-![quiz.html wireframe]()
+![quiz.html wireframe](./assets/images/readme/wireframes/quizwireframe.png)
 
 ### End.html
-![end.html wireframe]()
+![end.html wireframe](./assets/images/readme/wireframes/endwireframe.png)
 
 ### Leaderboard.html
-![leaderboard.html wireframe]()
+![leaderboard.html wireframe](./assets/images/readme/wireframes/leaderboardwireframe.png)
+
+### 404.html
+![404.html wireframe](./assets/images/readme/wireframes/404wireframe.png)
 
 ## Credits
 **Code related**
-- [dcode](https://www.youtube.com/watch?v=mntgaH5x-GQ&t=95s) for how to add a colored navigation bar.
+- [My project one](https://github.com/Danger0101/Meaningful_Careers_P1) for structure of this reademe file
+
+- My previous assessor for ideas on the readme file. Sorry do to the nature of assessing I have no idea who you are but thank you for the invaluable advice.
 
 - W3Schools for inspiration on the loading CSS for use on quiz page.
 
