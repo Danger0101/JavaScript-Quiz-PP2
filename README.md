@@ -38,6 +38,28 @@ This will show the leaderboard data upon load.
 ---
 ## Testing
 ### How I tested
+| What test was completed | Passed? Y(yes)/N(no) |
+|:-----------------------:|:-------------------:|
+| Responiveness on Samsung A41 Phone | Y |
+| Responsiveness on Tablet | Y |
+| Responsiveness om desktop Google chrome 1920px x 1080px | Y |
+| Responsiveness om desktop Google chrome 5120px x 1440px| Y |
+| Responsiveness om desktop Google chrome 2560px by 1440px | Y |
+| Google chrome lighthouse | Y |
+| Contrast checker | Y |
+| CSS Validation | Y |
+| JavaScript Validation script.js | Y |
+| JavaScript Validation end.js | Y |
+| JavaScript Validation highscores.js | Y |
+| HTML Validation | N |
+|  |  |
+|  |  |
+|  |  |
+|  |  |
+|  |  |
+|  |  |
+|  |  |
+|  |  |
 - Google Chrome (various resolutions)
 - Samsung A41 Phone (image is slightly outdated new paragrap texts)
 
