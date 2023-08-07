@@ -30,42 +30,42 @@
                 <div id="quiz" class="justy-center flex-column hidden">
                         <h1>JavaScript Showdown!</h1>
                         <div id="hud">
-                                <div id="hud-item">
-                                        <p class="hud-prefix" id="progress-text" aria-label="Displays question number out of how many questions">
+                                <div class="hud-item">
+                                        <p class="hud-prefix" id="progress-text">
                                                 <!-- Question: (question user is on) / (total questions) will update via JavaScript --> Progress Text
                                         </p>
-                                        <div id="progress-bar" aria-label="Progress bar shows how far you've made it in the quiz">
+                                        <div id="progress-bar">
                                                 <!-- Progress bar will start empty -->
                                                 <div id="progress-bar-full">
                                                         <!-- Progress bar will fill up as questions are completed -->
                                                 </div>
                                         </div>
                                 </div>
-                                <div id="hud-item">
+                                <div class="hud-item">
                                         <p class="hud-prefix">
                                                 Score:
                                         </p>
                                         <h2 class="hud-main-text" id="score" aria-label="Displays your current score">
-                                                <!-- Score gets updated here in by JavaScript -->
+                                                <!-- Score gets updated here in by JavaScript -->0
                                         </h2>
                                 </div>
                         </div>
                         <h3 id="question"><!-- Question Goes Here -->This is a Question</h3>
                         <div class="choice-container">
                                 <p class="choice-prefix">A</p>
-                                <p class="choice-text" data-number="1" aria-label="Answer choice 1"><!-- Choice 1 Will Go Here -->1</p>
+                                <a class="choice-text" data-number="1" aria-label="Answer choice 1"><!-- Choice 1 Will Go Here -->1</a>
                         </div>
                         <div class="choice-container">
                                 <p class="choice-prefix">B</p>
-                                <p class="choice-text" data-number="2" aria-label="Answer choice 2"><!-- Choice 2 Will Go Here -->2</p>
+                                <a class="choice-text" data-number="2" aria-label="Answer choice 2"><!-- Choice 2 Will Go Here -->2</a>
                         </div>
                         <div class="choice-container">
                                 <p class="choice-prefix">C</p>
-                                <p class="choice-text" data-number="3" aria-label="Answer choice 3"><!-- Choice 3 Will Go Here -->3</p>
+                                <a class="choice-text" data-number="3" aria-label="Answer choice 3"><!-- Choice 3 Will Go Here -->3</a>
                         </div>
                         <div class="choice-container">
                                 <p class="choice-prefix">D</p>
-                                <p class="choice-text" data-number="4" aria-label="Answer choice 4"><!-- Choice 4 Will Go Here -->4</p>
+                                <a class="choice-text" data-number="4" aria-label="Answer choice 4"><!-- Choice 4 Will Go Here -->4</a>
                         </div>
                         <a href="index.html" class="btn menu-btn" aria-label="Menu button takes you back to the hompage">Menu</a>
                 </div>
