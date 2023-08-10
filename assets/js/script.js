@@ -8,10 +8,6 @@ const quiz = document.getElementById("quiz");
 const howToPlayDiv = document.getElementById("how-to-play-div");
 const howToPlayBtn = document.getElementById("how-to-play-btn");
 
-howToPlayBtn.addEventListener('click', () => {
-        howToPlayDiv.classList.toggle('hidden');
-});
-
 let currentQuestion = {};
 let acceptingAnswers = false;
 let score = 0;
@@ -101,3 +97,7 @@ function incrementScore(num) {
         score += num;
         scoreText.innerText = score;
 }
+
+howToPlayBtn.addEventListener('click', () => {
+        howToPlayDiv.classList.toggle('hidden');
+});
