@@ -5,6 +5,12 @@ const scoreText = document.getElementById('score');
 const progressBarFull = document.querySelector("#progress-bar-full");
 const loader = document.getElementById("loader");
 const quiz = document.getElementById("quiz");
+const howToPlayDiv = document.getElementById("how-to-play-div");
+const howToPlayBtn = document.getElementById("how-to-play-btn");
+
+howToPlayBtn.addEventListener('click', () => {
+        howToPlayDiv.classList.toggle('hidden');
+});
 
 let currentQuestion = {};
 let acceptingAnswers = false;
