@@ -28,28 +28,26 @@
                         <h1>JavaScript Showdown!</h1>
                         <a class="btn" href="quiz.html" aria-label="play button takes you to quiz page">Play <i class="fa-solid fa-gamepad"></i></a>
                         <a class="btn" href="leaderboard.html" aria-label="leaderboard button takes you to the leaderboard page">Leaderboard <i class="fa-solid fa-crown"></i></a>
-                        <a class="btn" aria-label="displays or hides the how to play text" id="how-to-play-btn">How to play</a>
+                        <button class="btn" aria-label="displays or hides the how to play text" id="how-to-play-btn">How to play</button>
                 </div>
-                <div class="how-to-div hidden" id="how-to-play-div">
-                        <h2>How to play</h2>
+                <div class="how-to-div" id="how-to-play-div">
+                        <h2 class="how-title">How to play</h2>
                         <ol>
-                                <li>Click Play and wait for quiz to load</li>
-                                <li>Choose the answer you think is correct once quiz has loaded</li>
-                                <li>Upon choosing the  answer will highlight incorrect (red) and correct (green) for exactly one second then it will load next question</li>
-                                <li>The progress bar and question counter will also update if answer was correct then score will increase</li>
-                                <li>Once last question is complete the quiz will end</li>
-                                <li>If you wish to save your score, input your username and hit save this will return you to the menu and save your score</li>
+                                <li class="how-txt">Click Play and wait for quiz to load</li>
+                                <li class="how-txt">Choose the answer you think is correct once quiz has loaded</li>
+                                <li class="how-txt">Upon choosing the  answer will highlight incorrect (red) and correct (green) for exactly one second then it will load next question</li>
+                                <li class="how-txt">The progress bar and question counter will also update if answer was correct then score will increase</li>
+                                <li class="how-txt">Once last question is complete the quiz will end</li>
+                                <li class="how-txt">If you wish to save your score, input your username and hit save this will return you to the menu and save your score</li>
                         </ol>
-                        <ul>
-                                <li>If you wish to retun to menu at any point hit the menu or home buttons</li>
-                                <li>After quiz there is a button to play game again and re launches the quiz</li>
-                                <li>You can view the leaderboard at any point through the main menu</li>
+                        <ul class="how-txt">
+                                <li class="how-txt">If you wish to retun to menu at any point hit the menu or home buttons</li>
+                                <li class="how-txt">After quiz there is a button to play game again and re launches the quiz</li>
+                                <li class="how-txt">You can view the leaderboard at any point through the main menu</li>
                         </ul>
                 </div>
         </div>
         </main>
-        <script src="assets/js/script.js"></script>
-        <script src="https://kit.fontawesome.com/1d9a80c5a4.js" crossorigin="anonymous"></script>
         <footer>
                 <a href="https://github.com/Danger0101" target="_blank" class="author-links" aria-label="Opens author github in a new tab">
                         <i class="fa-brands fa-square-github"></i>
@@ -61,5 +59,8 @@
                         <i class="fa-brands fa-twitch"></i>
                 </a>
         </footer>
+        <script src="./assets/js/script.js"></script>
+        <script src="https://kit.fontawesome.com/1d9a80c5a4.js" crossorigin="anonymous"></script>
+        <script src="./assets/js/script2.js"></script>
 </body>
 </html>
