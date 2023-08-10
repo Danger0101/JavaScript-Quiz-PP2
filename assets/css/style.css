@@ -170,7 +170,7 @@ h6 {
 }
 .choice-prefix {
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-        padding: 1.5rem 1em;
+        padding: 1.5rem 1rem;
         background: var(--golden-button);
 }
 
@@ -178,15 +178,15 @@ h6 {
         padding: 1.5rem;
         width: 100%;
 }
-
+/* Highlight for correct answer */
 .correct {
         background: var(--green-highlight);
 }
-
+/* Highlight for incorrect anwser */
 .incorrect {
         background: var(--red-highlight);
 }
-
+/* End quiz CSS */
 /* HUD */
 #hud {
         display: flex;
@@ -208,12 +208,12 @@ h6 {
         height: 4rem;
         width: 20rem;
         border: 0.3rem solid rgb(136, 127, 0);
-        border-radius: 1rem;
+        border-radius: 0.8rem;
         box-shadow: 0.25rem 0.25rem 1.5rem rgba(109, 101, 65, 0.699);
 }
 
 #progress-bar-full {
-        height: 3.45rem;
+        height: 3.6rem;
         background-color: rgb(136, 127, 0);
         width: 0%;
 }
@@ -290,13 +290,13 @@ footer a {
         }
 
         h2 {
-                font-size: 2.4rem;
+                font-size: 1.8rem;
         }
         h3 {
-                font-size: 2.2rem;
+                font-size: 1.7rem;
         }
         P, li, a {
-                font-size: 1.8rem
+                font-size: 1.5rem
         }
         footer a {
                 font-size: 4rem;
@@ -307,19 +307,46 @@ footer a {
         .how-txt {
                 font-size: 1rem;
         }
+        .choice-container {
+                font-size: 1.8rem;
+        }
+        .choice-prefix {
+                padding: 0.5rem 1rem;
+        }
+        
+        .choice-text {
+                padding: 0.5rem;
+                font-size: 1.2rem;
+        }
+        .btn {
+                height: 4.5rem;
+                width: 14rem;
+                font-size: 1.4rem;
+        }
+        #progress-bar {
+                height: 2rem;
+                width: 10rem;
+                border-radius: 0.4rem;
+        }
+        .hud-prefix {
+                font-size: 1.3rem;
+        }
+        #progress-bar-full {
+                height: 1.7rem;
+        }
 }
 
 /* For Screens 450px and bellow */
 @media screen and (max-width: 450px) {
         h1 {
-                font-size: 2.2rem;
+                font-size: 1.8rem;
         }
 
         h2 {
-                font-size: 2rem;
+                font-size: 1.6rem;
         }
         h3 {
-                font-size: 1.8rem;
+                font-size: 1.4rem;
         }
         P, li, a {
                 font-size: 1.4rem
@@ -328,6 +355,16 @@ footer a {
                 font-size: 2.5rem;
         }
         .how-txt {
+                font-size: 1rem;
+        }
+        .choice-container {
+                font-size: 1.8rem;
+        }
+        .choice-prefix {
+                padding: 0.5rem 1rem;
+        }
+        
+        .choice-text {
                 font-size: 1rem;
         }
 }
