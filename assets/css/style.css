@@ -390,7 +390,7 @@ footer a {
             position: fixed;
             overflow: hidden;
             width: 100vh;
-            height: 100vw;
+            height: 700px;
         }
         .author-links {
                 margin-top: 3rem;
