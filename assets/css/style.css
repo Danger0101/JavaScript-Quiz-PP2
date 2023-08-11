@@ -16,6 +16,7 @@
 }
 
 body {
+        height: 100vh;
         font-family: 'Lugrasimo', cursive;
         color: var(--text-color);
 }
