@@ -101,11 +101,3 @@ function incrementScore(num) {
 howToPlayBtn.addEventListener('click', () => {
         howToPlayDiv.classList.toggle('hidden');
 });
-
-// This is in testing
-window.addEventListener('orientationchange', function() {
-        if (window.orientation === 90 || window.orientation === -90) {
-            // Landscape orientation
-            alert('This page is designed for portrait mode. Please rotate your device.');
-        }
-});
