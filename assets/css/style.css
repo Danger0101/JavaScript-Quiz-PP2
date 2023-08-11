@@ -112,11 +112,14 @@ h6 {
         font-size: 1.3rem;
 }
 /* end of how to play div css */
-
 /*testing author links css*/
 .author-links {
+        padding: 4.25rem;
         margin-top: 4rem;
         z-index: -1;
+}
+.author-links:hover {
+        cursor: pointer;
 }
 /* end author links css
 
