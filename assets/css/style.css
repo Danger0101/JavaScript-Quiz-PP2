@@ -101,7 +101,22 @@ h6 {
 .text-center {
         text-align: center;
 }
-
+/* Style for alert on non working javascript */
+noscript {
+        padding: 2rem 0;
+        height: 20rem;
+        width: 60rem;
+}
+.noscript {
+        padding: 2rem;
+        font-size: 1.7rem;
+        margin: auto;
+        color: black;
+        background: rgba(255, 0, 0, 0.5);
+        border: 0.1rem solid black;
+        border-radius: 2rem;
+}
+/* Style for please rotate to portrait message */
 #rotate-message {
         margin: 0 auto;
         padding: 10%;
@@ -110,7 +125,6 @@ h6 {
         align-items: center;
         text-align: center;
 }
-
 /* How to plat div */
 .how-to-div {
         margin-top: 1rem;
@@ -135,7 +149,6 @@ h6 {
 .hidden {
         display: none;
 }
-
 /* Button Styling */
 .btn {
         font-size: 1.8rem;
@@ -227,7 +240,6 @@ h6 {
         background-color: rgb(136, 127, 0);
         width: 0%;
 }
-
 /* Forms */
 form {
         width: 100%;
@@ -244,7 +256,6 @@ input {
         border: none;
         box-shadow: 1.25rem 1.25rem 1.5rem rgba(109, 101, 65, 0.699);
 }
-
 /* Leaderboard */
 #leaderboard-list {
         list-style: none;
@@ -259,16 +270,6 @@ input {
 
 .high-score:hover {
         transform: scale(1.025);
-}
-
-/* Loading CSS */
-#loader {
-        border: 1.6rem solid rgba(168, 168, 168, 0.212);
-        border-radius: 50%;
-        border-top: 1.6rem solid rgb(255, 199, 58);
-        width: 12rem;
-        height: 12rem;
-        animation: spin 2s linear infinite;
 }
 /* Footer */
 footer {
@@ -300,6 +301,15 @@ footer a {
         transition: 280ms;
 }
 /* end author links and footer css */
+/* Loading CSS */
+#loader {
+        border: 1.6rem solid rgba(168, 168, 168, 0.212);
+        border-radius: 50%;
+        border-top: 1.6rem solid rgb(255, 199, 58);
+        width: 12rem;
+        height: 12rem;
+        animation: spin 2s linear infinite;
+}
 
 @keyframes spin {
         0% {
@@ -309,6 +319,7 @@ footer a {
                 transform: rotate(360deg);
         }
 }
+/* End Loading CSS */
 /* Screens 1100px or greater */
 @media screen and (min-width: 1100px) {
         .author-links {
@@ -366,7 +377,6 @@ footer a {
                 height: 1.7rem;
         }
 }
-
 /* For Screens 450px and bellow */
 @media screen and (max-width: 450px) {
         h1 {
