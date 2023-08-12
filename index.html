@@ -23,7 +23,7 @@
 </head>
 <body>
        <main>
-        <div class="container">
+        <div class="container" id="main">
                 <div id="home" class="flex-center flex-column">
                         <h1>JavaScript Showdown!</h1>
                         <a class="btn" href="quiz.html" aria-label="play button takes you to quiz page">Play <i class="fa-solid fa-gamepad"></i></a>
@@ -47,6 +47,9 @@
                         </ul>
                 </div>
         </div>
+        <div id="rotate-message" style="display: none;">
+                <p>Please rotate your device to portrait mode.</p>
+        </div>
         </main>
         <footer>
                 <a href="https://github.com/Danger0101" target="_blank" class="author-links" aria-label="Opens author github in a new tab">
@@ -61,5 +64,10 @@
         </footer>
         <script src="./assets/js/script.js"></script>
         <script src="https://kit.fontawesome.com/1d9a80c5a4.js" crossorigin="anonymous"></script>
+        <script>
+                howToPlayBtn.addEventListener('click', () => {
+                        howToPlayDiv.classList.toggle('hidden');
+                });
+        </script>
 </body>
 </html>
