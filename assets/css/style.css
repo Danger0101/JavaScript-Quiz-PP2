@@ -301,7 +301,7 @@ footer a {
 /* In testing for landscape mode */
 @media (orientation: landscape) {
         body {
-                margin-top: 10rem;
+                margin-top: 19rem;
                 width: 100vh;
         }
         .author-links {
@@ -393,3 +393,4 @@ footer a {
                 font-size: 1rem;
         }
 }
+
