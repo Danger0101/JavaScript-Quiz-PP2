@@ -21,21 +21,56 @@ JavaScript quiz made to showcase skills using JavaScript, HTML, and CSS. The pur
 - As a user, I want to be able to go back to the main menu from the leaderboard.
 
 ## Features
-### Index
+### Index Page
 
 Landing page of JavaScript Showdown. It displays a play button when pressed that starts the quiz. Also visible is a leaderboard button which will take you to the leaderboard page.
+![Index Page](./assets/images/readme/features/index.png)
+
+#### How To Play
+![How To Play](./assets/images/readme/features/howtoplay.png)
 ---
-### Quiz
+### Quiz Page
 
 This page starts with a loading animation which will be hidden when the quiz has fully loaded. From here a user will select an answer and it will highlight red if it is wrong or green if its correct and after 1 second it will load the next question. There is a HUD that will diplay the score and current question with a progress bar. After the final question it will take you to the end page.
+![Quiz Page](./assets/images/readme/features/quiz.png)
+
+#### Loader
+This appears while quiz loads then disapears.
+![Loader](./assets/images/readme/features/loader.png)
+#### Correct Answer
+![Correct Highlight](./assets/images/readme/features/correct.png)
+#### Incorrect Answer
+![Incorrect Highlight](./assets/images/readme/features/incorrect.png)
 ---
-### End
+### End Page
 
 Page will load and show your score where you will be able to save your score to the leaderboard. There is a input field for the username and a submit button to save the score.
+![End Page](./assets/images/readme/features/end.png)
 ---
-### Leaderboard
+### Leaderboard Page
 
 This will show the leaderboard data upon load.
+![Leaderboard Page](./assets/images/readme/features/lead.png)
+---
+### 404 Page
+
+This will show the leaderboard data upon load.
+![404 Page](./assets/images/readme/features/404.png)
+---
+### No JavaScript
+
+This will show if browser doesn't support JavaScript or a user has disabled it.
+![No Java Script Warning](./assets/images/readme/features/nojs.png)
+---
+### Please Rotate
+
+This appears when users has mobile device is in landscape not currently catching all devices.
+![Please Rotate](./assets/images/readme/features/rotate.png)
+---
+### Footer
+
+Footer with social links to the author that open in new tabs.
+![Author Social Links Footer](./assets/images/readme/features/footer.png)
 ---
 ## Testing
 ### How I tested
