@@ -44,7 +44,7 @@ This will show the leaderboard data upon load.
 | Responiveness on Samsung A41 Phone Portrait | Y |
 | Responiveness on Samsung A41 Phone Landscape | N |
 | Responsiveness on Tablet Portrait | Y |
-| Responsiveness on Tablet Landscape | N |
+| Responsiveness on Tablet Landscape width >768px | N |
 | Responsiveness om desktop Google chrome 1920px x 1080px | Y |
 | Responsiveness om desktop Google chrome 5120px x 1440px| Y |
 | Responsiveness om desktop Google chrome 2560px by 1440px | Y |
@@ -55,8 +55,7 @@ This will show the leaderboard data upon load.
 | JavaScript Validation end.js | Y |
 | JavaScript Validation highscores.js | Y |
 | HTML Validation | Y |
-| Chrome inspect element large number of phone oprtions (landscape rotation) | N |
-|  |  |
+| Mobile landscape where width <= 768px with an error message to rotate | Y |
 
 - Samsung A41 Phone (image is slightly outdated new paragrap texts)
 
