@@ -16,7 +16,9 @@
 }
 
 body {
+        padding-top: 10rem;
         height: 100vh;
+        width: 100vw;
         font-family: 'Lugrasimo', cursive;
         color: var(--text-color);
 }
@@ -297,18 +299,6 @@ footer a {
                 padding: 8rem 2.5rem 0 2.5rem;
         }
 }
-
-/* In testing for landscape mode */
-@media (orientation: landscape) {
-        body {
-                margin-top: 19rem;
-                width: 100vh;
-        }
-        .author-links {
-                margin-top: 12rem;
-        }
-}
-
 @media screen and (max-width: 800px) {
         h1 {
                 font-size: 2.6rem;
