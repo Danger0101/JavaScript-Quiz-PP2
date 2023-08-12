@@ -56,14 +56,7 @@ This will show the leaderboard data upon load.
 | JavaScript Validation highscores.js | Y |
 | HTML Validation | Y |
 | Mobile landscape where width <= 768px with an error message to rotate | Y |
-
-- Samsung A41 Phone (image is slightly outdated new paragrap texts)
-
-![Samsung A41 Phone](./assets/images/readme/phone.png)
-
-- Teclast Tablet (image is slightly outdated new paragrap texts)
-
-![Teclast Tablet](./assets/images/readme/tablet.png)
+| Message for no JavaScript displaying when it should | Y |
 
 ### bugs encountered
 
@@ -214,4 +207,5 @@ Used github pages [View Site here](https://danger0101.github.io/JavaScript-Quiz-
 | Add a difficulty picker | N |
 | Backend database for score keeping | N |
 | Seperate leaderboards based on difficulty | N |
-| How to play button that opens a div on how to play the quiz | N |
+| How to play button that opens a div on how to play the quiz | Y |
+| Add no JavaScript Error text | Y |
