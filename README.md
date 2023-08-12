@@ -1,6 +1,6 @@
 # JavaScript-Quiz-PP2
 
-JavaScript quiz made to showcase skills using JavaScript, HTML, and CSS. The purpose is to allow users to test their knowlesge of JavaScript. It uses 4 pages to accomplish the end goal of a functioning JavaScript quiz. With three seperate scripts. The main reason for this multy page set up rather then 1 page is cleaner code as it keeps scripts a bit cleaner and they only need to contain whats needed for each page. While a single page can be faster in some cases I feel this layout suited my intentions better. As the inital load of the page is faster then if everything was all jumbled together also means quiz resets each go around or if user refreshes the page.
+JavaScript quiz made to showcase skills using JavaScript, HTML, and CSS. The purpose is to allow users to test their knowlesge of JavaScript. It uses 4 pages to accomplish the end goal of a functioning JavaScript quiz. With three seperate scripts. The main reason for this multy page set up rather then 1 page is cleaner code as it keeps scripts a bit cleaner and they only need to contain whats needed for each page. While a single page can be faster in some cases I feel this layout suited my intentions better. As the inital load of the page is faster then if everything was all jumbled together also means quiz resets each go around or if user refreshes the page. This site is intended to be used in a traditional desktop, laptop browser window, or a mobile device in portrait mode. Landscape is known to cause issues.
 
 ---
 ## User Stories
@@ -41,8 +41,10 @@ This will show the leaderboard data upon load.
 ### How I tested
 | What test was completed | Passed? Y(yes)/N(no) |
 |:-----------------------:|:-------------------:|
-| Responiveness on Samsung A41 Phone | Y |
-| Responsiveness on Tablet | Y |
+| Responiveness on Samsung A41 Phone Portrait | Y |
+| Responiveness on Samsung A41 Phone Landscape | N |
+| Responsiveness on Tablet Portrait | Y |
+| Responsiveness on Tablet Landscape | N |
 | Responsiveness om desktop Google chrome 1920px x 1080px | Y |
 | Responsiveness om desktop Google chrome 5120px x 1440px| Y |
 | Responsiveness om desktop Google chrome 2560px by 1440px | Y |
@@ -53,13 +55,7 @@ This will show the leaderboard data upon load.
 | JavaScript Validation end.js | Y |
 | JavaScript Validation highscores.js | Y |
 | HTML Validation | Y |
-|  |  |
-|  |  |
-|  |  |
-|  |  |
-|  |  |
-|  |  |
-|  |  |
+| Chrome inspect element large number of phone oprtions (landscape rotation) | N |
 |  |  |
 
 - Samsung A41 Phone (image is slightly outdated new paragrap texts)
@@ -74,13 +70,12 @@ This will show the leaderboard data upon load.
 
 | Bugs/Issues Encountered          | How problem was fixed                               | Fixed Y(yes)/N(no) |
 |:--------------------------------:|:---------------------------------------------------:|:------------------:|
-| Play button was not loading quiz | was a missing bracket that was deleted accidentally | Y                  |
-| Questions Were Not Displaying    | Was a typo in json file name in script.js           | Y                  |
-| Issue placeholder                |                                                     |                    |
-| Issue placeholder                |                                                     |                    |
-| Issue placeholder                |                                                     |                    |
-| Issue placeholder                |                                                     |                    |
-| Issue placeholder                |                                                     |                    |
+| Play button was not loading quiz | was a missing bracket that was deleted accidentally | Y |
+| Questions Were Not Displaying | Was a typo in json file name in script.js | Y |
+| Mobile device landscape not displaying as intended. Author links and title appear in odd fashion on certian resolutions | Ongoing issue tried diffrent css | N |
+| Author Links appearing underneath other elements at certain resolutions | Removed Z index | Y |
+| How to div was displaying upon load | Added hidden class to it to hide it on load | Y |
+| Responsive css attempt of landscape mode set everything in an od skew to left | Removed the css that caused issue | Y |
 
 ---
 
@@ -161,7 +156,7 @@ This will show the leaderboard data upon load.
 ![Screencap signup.html lighthouse mobile](./assets/images/readme/lighthouse/404/404mobilelh.png)
 
 ## Deployment
-Used github pages [View Site here]()
+Used github pages [View Site here](https://danger0101.github.io/JavaScript-Quiz-PP2/index.html)
 
 ## Technology used
 - HTML
