@@ -97,6 +97,16 @@ h6 {
 .text-center {
         text-align: center;
 }
+
+#rotate-message {
+        margin: 0 auto;
+        padding: 10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+}
+
 /* How to plat div */
 .how-to-div {
         margin-top: 1rem;
@@ -278,6 +288,8 @@ footer {
         font-size: 5rem;
         height: 10vh;
         width: 100vw;
+        position: fixed;
+        bottom: 3rem;
 }
 
 footer a {
@@ -298,7 +310,7 @@ footer a {
                 padding: 2rem 2.5rem 0 2.5rem;
         }
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 868px) {
         h1 {
                 font-size: 2.6rem;
         }
