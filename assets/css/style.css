@@ -298,6 +298,17 @@ footer a {
         }
 }
 
+/* In testing for landscape mode */
+@media (orientation: landscape) {
+        body {
+                margin-top: 10rem;
+                width: 100vh;
+        }
+        .author-links {
+                margin-top: 12rem;
+        }
+}
+
 @media screen and (max-width: 800px) {
         h1 {
                 font-size: 2.6rem;
@@ -380,15 +391,5 @@ footer a {
         
         .choice-text {
                 font-size: 1rem;
-        }
-}
-/* In testing */
-@media (orientation: landscape) {
-        body {
-            width: 100vh;
-            height: 700px;
-        }
-        .author-links {
-                margin-top: 3rem;
         }
 }
