@@ -65,7 +65,11 @@
         </footer>
         <script src="./assets/js/script.js"></script>
         <script src="https://kit.fontawesome.com/1d9a80c5a4.js" crossorigin="anonymous"></script>
+        <!-- Script only used on this page to show or hide how to play div -->
         <script>
+                const howToPlayBtn = document.getElementById("how-to-play-btn");
+                const howToPlayDiv = document.getElementById("how-to-play-div");
+
                 howToPlayBtn.addEventListener('click', () => {
                         howToPlayDiv.classList.toggle('hidden');
                 });
