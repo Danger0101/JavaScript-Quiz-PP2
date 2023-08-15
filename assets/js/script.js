@@ -76,16 +76,27 @@ choices.forEach(choice => {
                 const selectedAnswer = selectedChoice.dataset['number'];
 
                 const classToApply = selectedAnswer == currentQuestion.answer ? 'correct' : 'incorrect';
+                const correctAnswerClass = choices.find(choice => choice.dataset['number'] == currentQuestion.answer);
 
                 if (classToApply === 'correct'){
                         incrementScore(correctBonus);
                 }
+                // Highlights chossen answer
                 selectedChoice.parentElement.classList.add(classToApply);
-
+                // After slight delay will highlight correct answer
+                if (selectedAnswer != currentQuestion.answer) {
+                        setTimeout (() => {
+                                correctAnswerClass.parentElement.classList.add('correct');
+                        }, 600);
+                }
+                // Removes highlights and loads the next question
                 setTimeout(() => {
                         selectedChoice.parentElement.classList.remove(classToApply);
+                        if (selectedAnswer != currentQuestion.answer) {
+                                correctAnswerClass.parentElement.classList.remove('correct');
+                        };
                         getNewQuestion();
-                }, 1000);
+                }, 2000);
         });
 });
 /**
@@ -93,6 +104,7 @@ choices.forEach(choice => {
  */
 function incrementScore(num) {
         score += num;
+        // Updates the score user sees in hud
         scoreText.innerText = score;
 }
 /**
