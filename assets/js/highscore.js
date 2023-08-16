@@ -1,21 +1,14 @@
 const highScoresList = document.getElementById("leaderboard-list");
 const highScores = JSON.parse(localStorage.getItem("highScores")) || [];
-
+// Update highscore text based on local stored highscores
 highScoresList.innerHTML = highScores
-/**
- * Display's the leaderboad from local
- */
+// Display's the leaderboad from local
 .map(score => {
         return `<li class="high-score">${score.name} - ${score.score}</li>`;
 })
-/**
- * converts map into a single string allowing it to display multiple users with out sepperation
- */
+// Converts map into a single string allowing it to display multiple users with out sepperation
 .join("");
-/**
- * Function checks Orientation of device and shows relevant portions depnding
- * on orientation and screen resolution
- */
+// Checks if screen width mas is 768px or lower and the orientation based on height of the device
 function checkOrientation() {
         const mainContainer = document.getElementById('main');
         const quiz = document.getElementById('quiz');

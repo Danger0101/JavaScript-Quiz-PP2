@@ -2,19 +2,16 @@ const username = document.getElementById('username');
 const saveScoreBtn = document.getElementById('saveScoreBtn');
 const finalScore = document.getElementById('finalScore');
 const mostRecentScore = localStorage.getItem('mostRecentScore');
+// Saves highscores locally
 const highScores = JSON.parse(localStorage.getItem('highScores')) || [];
 const leaderboardMax= 5;
-
+// Updates the text to show you quiz score
 finalScore.innerText = mostRecentScore;
-/**
- * Looking for a username to be entered
- */
+// Looking for a username to be entered
 username.addEventListener('keyup', () => {
         saveScoreBtn.disabled = !username.value;
 });
-/**
- * Saves highscore locally with the input username
- */
+// Saves highscore locally with the input username
 saveHighScore = (e) => {
         e.preventDefault();
         const score = {
@@ -29,10 +26,7 @@ saveHighScore = (e) => {
         localStorage.setItem('highScores', JSON.stringify(highScores));
         window.location.assign('index.html');
 };
-/**
- * Function checks Orientation of device and shows relevant portions depnding
- * on orientation and screen resolution
- */
+// Checks if screen width mas is 768px or lower and the orientation based on height of the device
 function checkOrientation() {
         const mainContainer = document.getElementById('main');
         const quiz = document.getElementById('quiz');
