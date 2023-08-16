@@ -71,7 +71,7 @@ h6 {
 .container {
         padding: 2rem;
         width: 100vw;
-        height: 80%;
+        min-height: calc(100vh - 1rem);
         display: flex;
         justify-content: center;
         align-items: center;
@@ -273,14 +273,10 @@ input {
 }
 /* Footer */
 footer {
-        margin-top: 4rem;
+        margin: 0 auto;
         display: flex;
         justify-content: center;
-        align-items: flex-end;
-        font-size: 5rem;
-        height: 1%;
         width: 100vw;
-        position: absolute;
 }
 
 
@@ -289,11 +285,10 @@ footer {
         margin: auto;
         display: flex;
         justify-content: space-between;
-        border: 1px solid black;
         margin-top: 4rem;
         color: var(--text-color);
         text-shadow: 0.01rem 0.1rem 0.5rem rgba(0, 0, 0, 0.438);
-        font-size: 3rem;
+        font-size: 4rem;
 }
 .author-links:hover {
         color: rgba(121, 119, 42, 0.9);
@@ -322,11 +317,6 @@ footer {
 }
 /* End Loading CSS */
 /* Screens 1100px or greater */
-@media screen and (min-width: 1100px) {
-        .author-links {
-                padding: 2rem 2.5rem 0 2.5rem;
-        }
-}
 @media screen and (max-width: 868px) {
         h1 {
                 font-size: 2.6rem;
