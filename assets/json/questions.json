@@ -118,5 +118,277 @@
                 "choice3": "Number",
                 "choice4": "String",
                 "answer": 3
+        },
+        {
+                "question": "What is the output of: console.log(typeof NaN);?",
+                "choice1": "Number",
+                "choice2": "NaN",
+                "choice3": "Undefined",
+                "choice4": "String",
+                "answer": 1
+        },
+        {
+                "question": "What is the value of x after this code: let x = 5; x += '5';?",
+                "choice1": "10",
+                "choice2": "55",
+                "choice3": "NaN",
+                "choice4": "undefined",
+                "answer": 2
+        },
+        {
+                "question": "What will be logged to the console: console.log(0.1 + 0.2 === 0.3)?",
+                "choice1": "true",
+                "choice2": "NaN",
+                "choice3": "false",
+                "choice4": "undefined",
+                "answer": 3
+        },
+        {
+                "question": "What does the following expression evaluate to: '3' === 3?",
+                "choice1": "true",
+                "choice2": "null",
+                "choice3": "undefined",
+                "choice4": "false",
+                "answer": 4
+        },
+        {
+                "question": "What is the result of '5' - 3?",
+                "choice1": "2",
+                "choice2": "8",
+                "choice3": "NaN",
+                "choice4": "5",
+                "answer": 1
+        },
+        {
+                "question": "What is the value of the expression '5' + 3?",
+                "choice1": "53",
+                "choice2": "8",
+                "choice3": "NaN",
+                "choice4": "35",
+                "answer": 1
+        },
+        {
+                "question": "Which of the following is NOT a valid way to declare a variable in JavaScript?",
+                "choice1": "let",
+                "choice2": "const",
+                "choice3": "var",
+                "choice4": "int",
+                "answer": 4
+        },
+        {
+                "question": "What is the result of the expression true && false?",
+                "choice1": "true",
+                "choice2": "false",
+                "choice3": "undefined",
+                "choice4": "null",
+                "answer": 2
+        },
+        {
+                "question": "What does the isNaN() function in JavaScript do?",
+                "choice1": "Checks if a value is not a number",
+                "choice2": "Converts a value to a number",
+                "choice3": "Returns the square root of a number",
+                "choice4": "Checks if a value is a number",
+                "answer": 1
+        },
+        {
+                "question": "What will the following code snippet output: console.log('5' === 5);?",
+                "choice1": "true",
+                "choice2": "false",
+                "choice3": "undefined",
+                "choice4": "null",
+                "answer": 2
+        },
+        {
+                "question": "What is the purpose of the 'this' keyword in JavaScript?",
+                "choice1": "It refers to the current function being executed",
+                "choice2": "It refers to the global object",
+                "choice3": "It refers to the parent object",
+                "choice4": "It refers to the current object",
+                "answer": 4
+        },
+        {
+                "question": "What is the correct way to check if a variable is defined in JavaScript?",
+                "choice1": "if (variable)",
+                "choice2": "if (variable === undefined)",
+                "choice3": "if (typeof variable === 'undefined')",
+                "choice4": "if (variable !== null)",
+                "answer": 3
+        },
+        {
+                "question": "Which of the following statements about arrays in JavaScript is correct?",
+                "choice1": "Arrays can only store numbers",
+                "choice2": "Arrays can only store strings",
+                "choice3": "Arrays can store a mix of different data types",
+                "choice4": "Arrays can store functions but not objects",
+                "answer": 3
+        },
+        {
+                "question": "What is the output of the following code: console.log(2 + '2' - 1);?",
+                "choice1": "21",
+                "choice2": "22",
+                "choice3": "NaN",
+                "choice4": "1",
+                "answer": 1
+        },
+        {
+                "question": "How do arrays in JavaScript store multiple values?",
+                "choice1": "Using parentheses ()",
+                "choice2": "Using square brackets []",
+                "choice3": "Using angle brackets <>",
+                "choice4": "Using curly braces {}",
+                "answer": 2
+        },
+        {
+                "question": "What is the index of the first element in an array?",
+                "choice1": "0",
+                "choice2": "1",
+                "choice3": "first",
+                "choice4": "10",
+                "answer": 1
+        },
+        {
+                "question": "Which array method adds one or more elements to the end of an array and returns the new length?",
+                "choice1": "push()",
+                "choice2": "pop()",
+                "choice3": "shift()",
+                "choice4": "unshift()",
+                "answer": 1
+        },
+        {
+                "question": "How can you access the third element in an array called myArray?",
+                "choice1": "myArray[0]",
+                "choice2": "myArray[1]",
+                "choice3": "myArray[2]",
+                "choice4": "myArray[3]",
+                "answer": 3
+        },
+        {
+                "question": "Which method is used to remove the last element from an array?",
+                "choice1": "removeLast()",
+                "choice2": "pop()",
+                "choice3": "shift()",
+                "choice4": "slice()",
+                "answer": 2
+        },
+        {
+                "question": "What does the length property of an array in JavaScript represent?",
+                "choice1": "The number of elements in the array",
+                "choice2": "The total memory allocated to the array",
+                "choice3": "The maximum index value in the array",
+                "choice4": "The sum of all elements in the array",
+                "answer": 1
+        },
+        {
+                "question": "Which method is used to remove and return the first element from an array?",
+                "choice1": "shift()",
+                "choice2": "pop()",
+                "choice3": "unshift()",
+                "choice4": "push()",
+                "answer": 1
+        },
+        {
+                "question": "What will array.length return after using array.push('new element') on an array with five elements?",
+                "choice1": "4",
+                "choice2": "5",
+                "choice3": "6",
+                "choice4": "'new element'",
+                "answer": 3
+        },
+        {
+                "question": "What does the concat() method do in JavaScript arrays?",
+                "choice1": "Merges two arrays into one",
+                "choice2": "Adds an element to the beginning of an array",
+                "choice3": "Removes an element from an array",
+                "choice4": "Splits an array into multiple subarrays",
+                "answer": 1
+        },
+        {
+                "question": "What is the result of [1, 2, 3] + [4, 5, 6] in JavaScript?",
+                "choice1": "[1, 2, 3, 4, 5, 6]",
+                "choice2": "'1,2,34,5,6'",
+                "choice3": "[5, 7, 9]",
+                "choice4": "Error",
+                "answer": 2
+        },
+        {
+                "question": "How can you reverse the elements of an array in JavaScript?",
+                "choice1": "reverse()",
+                "choice2": "flip()",
+                "choice3": "invert()",
+                "choice4": "turn()",
+                "answer": 1
+        },
+        {
+                "question": "Which array method is used to check if all elements of an array pass a certain condition?",
+                "choice1": "filter()",
+                "choice2": "every()",
+                "choice3": "forEach()",
+                "choice4": "checkAll()",
+                "answer": 2
+        },
+        {
+                "question": "What is the purpose of the shift() method in JavaScript arrays?",
+                "choice1": "Removes the last element of an array",
+                "choice2": "Adds elements to the end of an array",
+                "choice3": "Removes the first element of an array",
+                "choice4": "Adds elements to the beginning of an array",
+                "answer": 3
+        },
+        {
+                "question": "How do you sort the elements of an array in ascending order in JavaScript?",
+                "choice1": "sortAsc()",
+                "choice2": "sort()",
+                "choice3": "orderAsc()",
+                "choice4": "arrange()",
+                "answer": 2
+        },
+        {
+                "question": "What is the difference between slice() and splice() methods in JavaScript arrays?",
+                "choice1": "There is no difference; they are synonymous.",
+                "choice2": "slice() removes elements, while splice() extracts a portion of the array.",
+                "choice3": "slice() extracts a portion of the array, while splice() removes elements.",
+                "choice4": "slice() only works on strings, while splice() works on arrays.",
+                "answer": 3
+        },
+        {
+                "question": "How can you iterate over the elements of an array using a loop?",
+                "choice1": "loop(array)",
+                "choice2": "for (element in array)",
+                "choice3": "for (let i = 0; i < array.length; i++)",
+                "choice4": "iterate(array)",
+                "answer": 3
+        },
+        {
+                "question": "Which method is used to add one or more elements to the beginning of an array and returns the new length?",
+                "choice1": "push()",
+                "choice2": "pop()",
+                "choice3": "shift()",
+                "choice4": "unshift()",
+                "answer": 4
+        },
+        {
+                "question": "Which method is used to create a new array with all elements that pass a certain condition?",
+                "choice1": "map()",
+                "choice2": "reduce()",
+                "choice3": "filter()",
+                "choice4": "forEach()",
+                "answer": 3
+        },
+        {
+                "question": "What will [1, 2, 3].concat([4, 5, 6]) return in JavaScript?",
+                "choice1": "[1, 2, 3, 4, 5, 6]",
+                "choice2": "'1, 2, 3, 4, 5, 6'",
+                "choice3": "[5, 7, 9]",
+                "choice4": "Error",
+                "answer": 1
+        },
+        {
+                "question": "How can you add multiple elements to an array using the push() method?",
+                "choice1": "push([element1, element2])",
+                "choice2": "push(element1, element2)",
+                "choice3": "push(element1), push(element2)",
+                "choice4": "push() is for single elements only",
+                "answer": 2
         }
 ]
