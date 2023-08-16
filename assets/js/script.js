@@ -26,9 +26,7 @@ fetch('assets/json/questions.json').then(res => {
 
 const correctBonus = 10;
 const maxQuestions = 10;
-/**
- * Function to start the quiz
- */
+// Function to start the quiz
 function startQuiz() {
         questionCounter = 0;
         score = 0;
@@ -37,9 +35,7 @@ function startQuiz() {
         quiz?.classList.remove('hidden');
         loader?.classList.add('hidden');
 }
-/**
- * Function pulls the next question at random
- */
+// Function pulls the next question at random
 function getNewQuestion() {
         if (availableQuestions.length === 0 || questionCounter > maxQuestions - 1) {
                 localStorage.setItem("mostRecentScore", score);
@@ -64,6 +60,7 @@ function getNewQuestion() {
 }
 /**
  * Checks wether or not users chosen answer is correct or incorrect
+ * Then it highilghts them both if incorrect or just correct if correct
  * Correct answers highlight in green
  * Incorrect answers highlight in red
  */
@@ -77,7 +74,7 @@ choices.forEach(choice => {
 
                 const classToApply = selectedAnswer == currentQuestion.answer ? 'correct' : 'incorrect';
                 const correctAnswerClass = choices.find(choice => choice.dataset['number'] == currentQuestion.answer);
-
+                // Increments the score if user was correct by the correct bonus
                 if (classToApply === 'correct'){
                         incrementScore(correctBonus);
                 }
@@ -99,18 +96,13 @@ choices.forEach(choice => {
                 }, 2000);
         });
 });
-/**
- * Function increases the score when answer is correct
- */
+// Function increases the score when answer is correct
 function incrementScore(num) {
         score += num;
         // Updates the score user sees in hud
         scoreText.innerText = score;
 }
-/**
- * Function checks Orientation of device and shows relevant portions depnding
- * on orientation and screen resolution
- */
+// Checks if screen width mas is 768px or lower and the orientation based on height of the device
 function checkOrientation() {
         const mainContainer = document.getElementById('main');
         const quiz = document.getElementById('quiz');
