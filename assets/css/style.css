@@ -71,7 +71,7 @@ h6 {
 .container {
         padding: 2rem;
         width: 100vw;
-        height: 84vh;
+        height: 80%;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -273,26 +273,27 @@ input {
 }
 /* Footer */
 footer {
-        margin-top: auto;
+        margin-top: 4rem;
         display: flex;
         justify-content: center;
         align-items: flex-end;
         font-size: 5rem;
-        height: 10vh;
+        height: 1%;
         width: 100vw;
         position: absolute;
-        bottom: 0;
 }
 
-footer a {
-        margin: 0% auto;
-}
+
 /*testing author links css*/
 .author-links {
-        padding: 2.25rem 2.25rem 0 2.25rem;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        border: 1px solid black;
         margin-top: 4rem;
         color: var(--text-color);
         text-shadow: 0.01rem 0.1rem 0.5rem rgba(0, 0, 0, 0.438);
+        font-size: 3rem;
 }
 .author-links:hover {
         color: rgba(121, 119, 42, 0.9);
@@ -332,25 +333,22 @@ footer a {
         }
 
         h2 {
-                font-size: 1.8rem;
+                font-size: 1.9rem;
         }
         h3 {
-                font-size: 1.7rem;
+                font-size: 1.8rem;
         }
         P, li, a {
-                font-size: 1.5rem
-        }
-        footer a {
-                font-size: 4rem;
+                font-size: 1.7rem
         }
         .how-title {
                 font-size: 2rem;
         }
         .how-txt {
-                font-size: 1rem;
+                font-size: 1.4rem;
         }
         .choice-container {
-                font-size: 1.8rem;
+                font-size: 1.9rem;
         }
         .choice-prefix {
                 padding: 0.5rem 1rem;
@@ -380,33 +378,30 @@ footer a {
 /* For Screens 450px and bellow */
 @media screen and (max-width: 450px) {
         h1 {
-                font-size: 1.8rem;
+                font-size: 1.9rem;
         }
 
         h2 {
-                font-size: 1.6rem;
+                font-size: 1.7rem;
         }
         h3 {
-                font-size: 1.4rem;
+                font-size: 1.6rem;
         }
         P, li, a {
-                font-size: 1.4rem
-        }
-        footer a {
-                font-size: 2.5rem;
+                font-size: 1.5rem
         }
         .how-txt {
-                font-size: 1rem;
+                font-size: 1.2rem;
         }
         .choice-container {
-                font-size: 1.8rem;
+                font-size: 1.9rem;
         }
         .choice-prefix {
                 padding: 0.5rem 1rem;
         }
         
         .choice-text {
-                font-size: 1rem;
+                font-size: 1.2rem;
         }
 }
 
