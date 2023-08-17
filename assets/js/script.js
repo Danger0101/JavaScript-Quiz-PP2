@@ -35,9 +35,12 @@ function startQuiz() {
         questionCounter = 0;
         score = 0;
         availableQuestions = [...questions]
-        getNewQuestion();
-        quiz?.classList.remove('hidden');
-        loader?.classList.add('hidden');
+        // Sets a delay of 1500ms to show loader and pull first question
+        setTimeout(() => {
+                getNewQuestion();
+                quiz?.classList.remove('hidden');
+                loader?.classList.add('hidden');
+        }, 1500);
 }
 // Function pulls the next question at random
 function getNewQuestion() {
