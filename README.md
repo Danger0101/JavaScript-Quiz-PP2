@@ -126,12 +126,12 @@ Footer with social links to the author that open in new tabs.
 
 ## Validation testing
 ### CSS
--checked with [W3 CSS Validator](https://jigsaw.w3.org/css-validator/) Any CSS issues?
+-checked with [W3 CSS Validator](https://jigsaw.w3.org/css-validator/) No CSS issues
 
 ![W3 CSS Validation Image](./assets/images/readme/cssvalidation/cssvalidation.png)
 
 ### HTML
-- checked with [W3 HTML Validator](https://validator.w3.org/) were there any warnings or errors?
+- checked with [W3 HTML Validator](https://validator.w3.org/) No HTML validation issues found
 
 **Index.html**
 ![W3 HTML Validation Image Index Page](assets/images/readme/htmlvalidation/indexvalidation.png)
@@ -154,6 +154,16 @@ Footer with social links to the author that open in new tabs.
 ![Contrast checker Image](./assets/images/readme/contrast/colorcontrasttest.png)
 
 ### JavaScript
+
+All Scripts checked with [JSHint](https://jshint.com/)
+
+| **Sctipt** | **Any Errors?** | **Warnings?** | Other note worthy comments |
+|:----------:|:---------------:|:-------------:|:--------------------------:|
+| index.js | No Errors | 5 Warnings all to do with compatibility | None |
+| quiz.js | No Errors | 43 Warnings all to do with compatibility | None |
+| end.js | No Errors | 11 Warnings all to do with compatibility | Save highscore varriable isnt used in script but is on end.html save button press |
+| highscore.js | No Errors | 6 Warnings all to do with compatibility | None |
+| error.js | No Errors | 2 Warnings all to do with compatibility | None |
 
 ### Index.html
 **Chrome lighthouse desktop**
