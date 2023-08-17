@@ -93,20 +93,27 @@ Footer with social links to the author that open in new tabs.
 |:-----------------------:|:-------------------:|
 | Responiveness on Samsung A41 Phone Portrait | Y |
 | Responiveness on Samsung A41 Phone Landscape | Y |
-| Responsiveness on Tablet Portrait | Y |
-| Responsiveness on Tablet Landscape width >768px | Y |
+| Responsiveness on Teclast Tablet Portrait | Y |
+| Responsiveness on Teclast Tablet Lanscape | Y |
+| Responsive behaviours on over 12 mobile device settings in chrome dev tools | Y |
 | Responsiveness om desktop Google chrome 1920px x 1080px | Y |
 | Responsiveness om desktop Google chrome 5120px x 1440px| Y |
 | Responsiveness om desktop Google chrome 2560px by 1440px | Y |
 | Google chrome lighthouse | Y |
+| HTML Validation All | Y |
 | Contrast checker | Y |
 | CSS Validation | Y |
-| JavaScript Validation script.js | Y |
-| JavaScript Validation end.js | Y |
+| JavaScript Validation indez.js | Y |
+| JavaScript Validation quiz.js | Y |
 | JavaScript Validation highscores.js | Y |
-| HTML Validation | Y |
+| JavaScript Validation end.js | Y |
+| JavaScript Validation error.js | Y |
 | Mobile landscape where width <= 768px with an error message to rotate | Y |
 | Message for no JavaScript displaying when it should | Y |
+| Footer stays at bottom of page always | Y |
+| Rotate Message shows when it should | Y |
+| No JavaScript message displays when its not installed or disabled | Y |
+| 404 page at deployed location works as intended | Y |
 
 ### bugs encountered
 
