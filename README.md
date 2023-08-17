@@ -285,3 +285,4 @@ Used github pages to bring the site to life [View Site here](https://danger0101.
 | Seperate leaderboards based on difficulty | N |
 | Add more questions to total 100+ | N |
 | Maybe instead of difficulty checker having option to choose othe coding language quiz's | N |
+| Swap leaderboard to a table instead of a list although for now its as intended  | N |
