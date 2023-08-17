@@ -11,7 +11,7 @@ username.addEventListener('keyup', () => {
         saveScoreBtn.disabled = !username.value;
 });
 // Saves highscore locally with the input username
-saveHighScore = (e) => {
+const saveHighScore = (e) => {
         e.preventDefault();
         const score = {
                 score: mostRecentScore,
