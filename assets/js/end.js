@@ -4,7 +4,6 @@ const finalScore = document.getElementById('finalScore');
 const mostRecentScore = localStorage.getItem('mostRecentScore');
 // Saves highscores locally
 const highScores = JSON.parse(localStorage.getItem('highScores')) || [];
-const leaderboardMax= 5;
 // Updates the text to show you quiz score
 finalScore.innerText = mostRecentScore;
 // Looking for a username to be entered
