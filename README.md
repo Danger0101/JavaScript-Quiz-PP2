@@ -77,9 +77,9 @@ Footer with social links to the author that open in new tabs.
 | What test was completed | Passed? Y(yes)/N(no) |
 |:-----------------------:|:-------------------:|
 | Responiveness on Samsung A41 Phone Portrait | Y |
-| Responiveness on Samsung A41 Phone Landscape | N |
+| Responiveness on Samsung A41 Phone Landscape | Y |
 | Responsiveness on Tablet Portrait | Y |
-| Responsiveness on Tablet Landscape width >768px | N |
+| Responsiveness on Tablet Landscape width >768px | Y |
 | Responsiveness om desktop Google chrome 1920px x 1080px | Y |
 | Responsiveness om desktop Google chrome 5120px x 1440px| Y |
 | Responsiveness om desktop Google chrome 2560px by 1440px | Y |
@@ -99,10 +99,13 @@ Footer with social links to the author that open in new tabs.
 |:--------------------------------:|:---------------------------------------------------:|:------------------:|
 | Play button was not loading quiz | was a missing bracket that was deleted accidentally | Y |
 | Questions Were Not Displaying | Was a typo in json file name in script.js | Y |
-| Mobile device landscape not displaying as intended. Author links and title appear in odd fashion on certian resolutions | Ongoing issue tried diffrent css | N |
+| Mobile device landscape not displaying as intended. Author links and title appear in odd fashion on certian resolutions | Ongoing issue tried diffrent css finally found one that works although going to keep my script for the set resolutions to rotate back as it is best experiance. still | Y |
 | Author Links appearing underneath other elements at certain resolutions | Removed Z index | Y |
 | How to div was displaying upon load | Added hidden class to it to hide it on load | Y |
 | Responsive css attempt of landscape mode set everything in an od skew to left | Removed the css that caused issue | Y |
+| Over responsive footer | There was a buggy CSS code using footer and anchor tags I removed it | Y |
+| Font was difficult to read for some users | Replaced font with a more user friendly font | Y |
+| Hover effect remains active after selecting an answer and next question is loading | Not fixed yet | N |
 
 ---
 
@@ -238,9 +241,11 @@ Used github pages [View Site here](https://danger0101.github.io/JavaScript-Quiz-
 | Leaderboard which uses local storage (svae/load) | Y |
 | Loader to display whil quiz loads up | Y |
 | Footer with links to author | Y |
-| Add more questions | N |
+| Add more questions to aproximatly 40+ | Y |
+| How to play button that opens a div on how to play the quiz | Y |
+| Add no JavaScript Error text | Y |
 | Add a difficulty picker | N |
 | Backend database for score keeping | N |
 | Seperate leaderboards based on difficulty | N |
-| How to play button that opens a div on how to play the quiz | Y |
-| Add no JavaScript Error text | Y |
+| Add more questions to total 100+ | N |
+| Remove hover effect on mobile/touch devices where there is no active cursor to hover | N |
