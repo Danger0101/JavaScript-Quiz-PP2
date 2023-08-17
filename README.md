@@ -15,31 +15,41 @@ JavaScript quiz made to showcase skills using JavaScript, HTML, and CSS. The pur
 - As a user, I want to see my final score at the end of the quiz.
 - As a user, I want to have the option to restart the quiz after finishing it.
 - As a user, I want to see a leaderboard with the top scores.
-- As a user, I want to be able to submit my score and username to the leaderboard.
-- As a user, I want to see my position on the leaderboard after submitting my score.
-- As a user, I want to see a message if my score is not high enough to make it to the leaderboard.
+- As a user, I want to have the choice to submit my score and a username to the leaderboard.
+- As a user, I want to see the top five scores on the leaderboard.
 - As a user, I want to be able to go back to the main menu from the leaderboard.
+- As a user, I want to be able to go back to the main menu from the quiz.
+- As a user, I want to be able to go back to the main menu from a 404 error screen should it arise.
+- As a user, I want to be able to see how to play before starting.
+- As a user, I want to be able to check out the author.
 
 ## Features
 ### Index Page
 
 Landing page of JavaScript Showdown. It displays a play button when pressed that starts the quiz. Also visible is a leaderboard button which will take you to the leaderboard page.
+
 ![Index Page](./assets/images/readme/features/index.png)
 
 #### How To Play
+
 ![How To Play](./assets/images/readme/features/howtoplay.png)
 ---
 ### Quiz Page
 
 This page starts with a loading animation which will be hidden when the quiz has fully loaded. From here a user will select an answer and it will highlight red if it is wrong or green if its correct and after 1 second it will load the next question. There is a HUD that will diplay the score and current question with a progress bar. After the final question it will take you to the end page.
+
 ![Quiz Page](./assets/images/readme/features/quiz.png)
 
 #### Loader
 This appears while quiz loads then disapears.
+
 ![Loader](./assets/images/readme/features/loader.png)
 #### Correct Answer
+
 ![Correct Highlight](./assets/images/readme/features/correct.png)
+
 #### Incorrect Answer
+
 ![Incorrect Highlight](./assets/images/readme/features/incorrect.png)
 ---
 ### End Page
@@ -50,26 +60,31 @@ Page will load and show your score where you will be able to save your score to 
 ### Leaderboard Page
 
 This will show the leaderboard data upon load.
+
 ![Leaderboard Page](./assets/images/readme/features/lead.png)
 ---
 ### 404 Page
 
 This will show the leaderboard data upon load.
+
 ![404 Page](./assets/images/readme/features/404.png)
 ---
 ### No JavaScript
 
 This will show if browser doesn't support JavaScript or a user has disabled it.
+
 ![No Java Script Warning](./assets/images/readme/features/nojs.png)
 ---
 ### Please Rotate
 
 This appears when users has mobile device is in landscape not currently catching all devices.
+
 ![Please Rotate](./assets/images/readme/features/rotate.png)
 ---
 ### Footer
 
 Footer with social links to the author that open in new tabs.
+
 ![Author Social Links Footer](./assets/images/readme/features/footer.png)
 ---
 ## Testing
@@ -186,23 +201,22 @@ Footer with social links to the author that open in new tabs.
 ![Screencap signup.html lighthouse mobile](./assets/images/readme/lighthouse/404/404mobilelh.png)
 
 ## Deployment
-Used github pages [View Site here](https://danger0101.github.io/JavaScript-Quiz-PP2/index.html)
+Used github pages to bring the site to life [View Site here](https://danger0101.github.io/JavaScript-Quiz-PP2/index.html)
 
 ## Technology used
-- HTML
-- CSS
-- JavaScript
-- Json
-- Fontawesome
-- Google Fonts
-- Visual Studios Code (VSCode)
-- Github
-- Hypervisor
-- Git
-- Gyzo
-- MS Paint
-- Gimp version 2.10.22
-- Github Desktop App
+- [HTML](https://www.w3schools.com/html/default.asp)
+- [CSS](https://www.w3schools.com/css/default.asp)
+- [JavaScript](https://www.w3schools.com/js/default.asp)
+- [Json](https://www.w3schools.com/js/js_json_intro.asp)
+- [Fontawesome](https://fontawesome.com/)
+- [Google Fonts](https://fonts.google.com/)
+- [Visual Studios Code (VSCode)](https://visualstudio.microsoft.com/)
+- [Github](https://github.com/)
+- [Hypervisor (virtual enviorment)](https://learn.microsoft.com/en-us/virtualization/hyper-v-on-windows/about/)
+- [Git](https://git-scm.com/)
+- [Gyazo](https://gyazo.com/en)
+- [MS Paint](https://apps.microsoft.com/store/detail/paint/9PCFS5B6T72H)
+- [Github Desktop App](https://desktop.github.com/)
 
 ## Wireframes
 ### Index.html
@@ -226,11 +240,11 @@ Used github pages [View Site here](https://danger0101.github.io/JavaScript-Quiz-
 
 - My previous assessor for ideas on the readme file. Sorry do to the nature of assessing I have no idea who you are but thank you for the invaluable advice.
 
-- W3Schools for inspiration on the loading CSS for use on quiz page.
+- [W3Schools](https://www.w3schools.com/) for inspiration on the loading CSS for use on quiz page and to find out uses for all type of varriables and inspiration to the questions. Invaluable tool so much knowledge for freee its crazy.
 
-- My wife who’s been supper supportive of this change in career for me and just being out right amazing we will get her into this one way or another I am sure.
+- [My wife](https://www.twitch.tv/flame_121) who’s been supper supportive of this change in career for me and just being out right amazing we will get her into this one way or another I am sure.
 
-- Code Institute for providing an excellent accelerated learning platform worth every penny.
+- [Code Institute](https://codeinstitute.net/) for providing an excellent accelerated learning platform worth every penny.
 ---
 ## Future feature ideas
 | **Features to add** | **Added Y(yes)/N(no)** |
