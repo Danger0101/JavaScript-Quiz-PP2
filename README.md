@@ -258,8 +258,9 @@ Used github pages to bring the site to life [View Site here](https://danger0101.
 | Add more questions to aproximatly 40+ | Y |
 | How to play button that opens a div on how to play the quiz | Y |
 | Add no JavaScript Error text | Y |
+| Remove hover effect on mobile/touch devices where there is no active cursor to hover | Y |
 | Add a difficulty picker | N |
 | Backend database for score keeping | N |
 | Seperate leaderboards based on difficulty | N |
 | Add more questions to total 100+ | N |
-| Remove hover effect on mobile/touch devices where there is no active cursor to hover | N |
+| Maybe instead of difficulty checker having option to choose othe coding language quiz's | N |
