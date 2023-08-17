@@ -35,13 +35,13 @@
                         <a class="btn" href="leaderboard.html" aria-label="leaderboard button takes you to the leaderboard page">Leaderboard <i class="fa-solid fa-crown"></i></a>
                         <button class="btn" aria-label="displays or hides the how to play text" id="how-to-play-btn">How to play</button>
                 </div>
-                <div class="hidden how-to-div" id="how-to-play-div">
+                <div class="hidden how-to-div slow-open" id="how-to-play-div">
                         <h2 class="how-title">How to play</h2>
                         <ol>
                                 <li class="how-txt">For best experiance on mobile devices ensure you are using portrait mode.</li>
                                 <li class="how-txt">Click Play and wait for quiz to load.</li>
                                 <li class="how-txt">Choose the answer you think is correct once quiz has loaded.</li>
-                                <li class="how-txt">Upon choosing the  answer will highlight incorrect (red) and correct (green) after a brief moment it will load next question</li>
+                                <li class="how-txt">Upon choosing the  answer will highlight <strong class="incorrect">incorrect (red)</strong> and <strong class="correct">correct (green)</strong> after a brief moment it will load next question</li>
                                 <li class="how-txt">If you choose incorrect the correct answer will also show after a brief delay.</li>
                                 <li class="how-txt">The progress bar and question counter will also update if answer was correct then score will increase.</li>
                                 <li class="how-txt">Once last question is complete the quiz will end.</li>
@@ -69,16 +69,8 @@
                         <i class="fa-brands fa-twitch"></i>
                 </a>
         </footer>
-        <script src="./assets/js/script.js"></script>
+        <script src="./assets/js/index.js"></script>
         <script src="https://kit.fontawesome.com/1d9a80c5a4.js" crossorigin="anonymous"></script>
         <!-- Script only used on this page to show or hide how to play div -->
-        <script>
-                const howToPlayBtn = document.getElementById("how-to-play-btn");
-                const howToPlayDiv = document.getElementById("how-to-play-div");
-                // Toggles visibility of how to play div
-                howToPlayBtn.addEventListener('click', () => {
-                        howToPlayDiv.classList.toggle('hidden');
-                });
-        </script>
 </body>
 </html>
