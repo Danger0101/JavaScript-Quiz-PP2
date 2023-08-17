@@ -13,6 +13,8 @@ let questionCounter = 0;
 let availableQuestions = [];
 /**
  * Grabs questions from a json file
+ * Then it starts the quiz
+ * In event of an error it will log error to console
  */
 let questions = [];
 fetch('assets/json/questions.json').then(res => {
@@ -23,7 +25,9 @@ fetch('assets/json/questions.json').then(res => {
 }).catch(err => {
         console.log(err);
 });
-
+/** Question bonus is point earned when correct and 
+ * The max questions is how many questions are pulled
+*/
 const correctBonus = 10;
 const maxQuestions = 10;
 // Function to start the quiz
@@ -46,11 +50,11 @@ function getNewQuestion() {
         progressText.innerText = `Question: ${questionCounter} / ${maxQuestions}`;
         // Update and fill the progress bar
         progressBarFull.style.width = `${(questionCounter / maxQuestions) * 100}%`;
-
+        // Grabs question at random and applies it to appropriate html element
         const questionIndex = Math.floor(Math.random() * availableQuestions.length);
         currentQuestion = availableQuestions[questionIndex];
         question.innerText = currentQuestion.question;
-
+        // Sets the inner text of the choice box's to the choices
         choices.forEach((choice) => {
                 const number = choice.dataset['number'];
                 choice.innerText = currentQuestion['choice' + number];
