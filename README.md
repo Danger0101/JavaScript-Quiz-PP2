@@ -133,7 +133,7 @@ Footer with social links to the author that open in new tabs.
 
 ## Validation testing
 ### CSS
--checked with [W3 CSS Validator](https://jigsaw.w3.org/css-validator/) No CSS issues
+- checked with [W3 CSS Validator](https://jigsaw.w3.org/css-validator/) No CSS issues
 
 ![W3 CSS Validation Image](./assets/images/readme/cssvalidation/cssvalidation.png)
 
