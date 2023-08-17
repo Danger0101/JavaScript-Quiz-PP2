@@ -11,7 +11,6 @@ highScoresList.innerHTML = highScores
 // Checks if screen width mas is 768px or lower and the orientation based on height of the device
 function checkOrientation() {
         const mainContainer = document.getElementById('main');
-        const quiz = document.getElementById('quiz');
         const rotateMessage = document.getElementById('rotate-message');
         if (window.matchMedia("(max-width: 768px)").matches) {
                 // Only activate on mobile devices (width <= 768px)
