@@ -130,10 +130,6 @@ noscript {
         font-size: 1.3rem;
 }
 /* end of how to play div css */
-/* hide css used to hide elements from user */
-.hidden {
-        display: none;
-}
 /* Button Styling */
 .btn {
         font-size: 1.8rem;
@@ -291,6 +287,28 @@ footer {
         }
 }
 /* End Loading CSS */
+/* hide css used to hide elements from user */
+.hidden {
+        display: none;
+}
+/* Add keyframes animation for slow open effect */
+@keyframes slowopen {
+        0% {
+                opacity: 0;
+                transform: translateY(-20px) scale(0.8);
+        }
+        50% {
+                opacity: 0.1;
+        }
+        100% {
+                opacity: 1;
+                transform: translateY(0) scale(1);
+        }
+}
+/* Apply the animation to the .slow-open class */
+.slow-open {
+  animation: slowopen 800ms ease-in-out;
+}
 /* Screens 868px or lower */
 @media screen and (max-width: 868px) {
         h1 {
@@ -369,4 +387,9 @@ footer {
                 font-size: 1.2rem;
         }
 }
-
+/* Remove hover effect on touch devices */
+.btn:hover, .choice-container:hover {
+        cursor: default;
+        transform: none;
+        transition: none;
+}
