@@ -1,6 +1,10 @@
 # JavaScript-Quiz-PP2
 
-JavaScript quiz made to showcase skills using JavaScript, HTML, and CSS. The purpose is to allow users to test their knowlesge of JavaScript. It uses 4 pages to accomplish the end goal of a functioning JavaScript quiz. With three seperate scripts. The main reason for this multy page set up rather then 1 page is cleaner code as it keeps scripts a bit cleaner and they only need to contain whats needed for each page. While a single page can be faster in some cases I feel this layout suited my intentions better. As the inital load of the page is faster then if everything was all jumbled together also means quiz resets each go around or if user refreshes the page. This site is intended to be used in a traditional desktop, laptop browser window, or a mobile device in portrait mode. Landscape is known to cause issues.
+Created using JavaScript, HTML, and CSS, this interactive quiz serves as a demonstration of my programming skills. Its primary objective is to provide users with a platform to assess their proficiency in JavaScript. The quiz encompasses four distinct pages, each contributing to the seamless functioning of the interactive experience. Through the implementation of five separate scripts, the code maintains clarity and conciseness by targeting specific functionalities on each page.
+
+The rationale behind employing a multi-page approach, as opposed to a singular page, lies in the pursuit of organized and structured code. This design choice results in more concise scripts, tailored to the unique requirements of each page. While a unified page may offer quicker initial loading times, the segmented layout aligns better with my creative intentions. Furthermore, this architecture guarantees a fresh quiz experience with each iteration or page refresh, enhancing user engagement.
+
+Optimized for traditional desktop and laptop browsers, as well as portrait-oriented mobile devices, the quiz functions flawlessly within these parameters. However, landscape mode may present compatibility challenges.
 
 ---
 ## User Stories
