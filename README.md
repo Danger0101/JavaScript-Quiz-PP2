@@ -127,7 +127,7 @@ Footer with social links to the author that open in new tabs.
 | Responsive css attempt of landscape mode set everything in an od skew to left | Removed the css that caused issue | Y |
 | Over responsive footer | There was a buggy CSS code using footer and anchor tags I removed it | Y |
 | Font was difficult to read for some users | Replaced font with a more user friendly font | Y |
-| Hover effect remains active after selecting an answer and next question is loading | Not fixed yet | N |
+| Hover effect remains active after selecting an answer and next question is loading | Added media querry to remove hover effect on touch devices | Y |
 
 ---
 
