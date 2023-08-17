@@ -1,4 +1,4 @@
-# JavaScript-Quiz-PP2
+# JavaScript Showdown!
 
 Created using JavaScript, HTML, and CSS, this interactive quiz serves as a demonstration of my programming skills. Its primary objective is to provide users with a platform to assess their proficiency in JavaScript. The quiz encompasses four distinct pages, each contributing to the seamless functioning of the interactive experience. Through the implementation of five separate scripts, the code maintains clarity and conciseness by targeting specific functionalities on each page.
 
@@ -268,21 +268,21 @@ Used github pages to bring the site to life [View Site here](https://danger0101.
 - [Code Institute](https://codeinstitute.net/) for providing an excellent accelerated learning platform worth every penny.
 ---
 ## Future feature ideas
-| **Features to add** | **Added Y(yes)/N(no)** |
-|:-------------------:|:--------------------:|
-| Pages for menu, leaderboard, quiz, and an end page | Y |
-| Fifteen Quiz questions to start | Y |
-| HUD to show score and question progress | Y |
-| Leaderboard which uses local storage (svae/load) | Y |
-| Loader to display whil quiz loads up | Y |
-| Footer with links to author | Y |
-| Add more questions to aproximatly 40+ | Y |
-| How to play button that opens a div on how to play the quiz | Y |
-| Add no JavaScript Error text | Y |
-| Remove hover effect on mobile/touch devices where there is no active cursor to hover | Y |
-| Add a difficulty picker | N |
-| Backend database for score keeping | N |
-| Seperate leaderboards based on difficulty | N |
-| Add more questions to total 100+ | N |
-| Maybe instead of difficulty checker having option to choose othe coding language quiz's | N |
-| Swap leaderboard to a table instead of a list although for now its as intended  | N |
+| **Features to add** | **Added Y(yes)/N(no)** | **Why not added?** |
+|:-------------------:|:--------------------:|:-------:|
+| Pages for menu, leaderboard, quiz, and an end page | Y | N/A |
+| Fifteen Quiz questions to start | Y | N/A |
+| HUD to show score and question progress | Y | N/A |
+| Leaderboard which uses local storage (svae/load) | Y | N/A |
+| Loader to display whil quiz loads up | Y | N/A |
+| Footer with links to author | Y | N/A |
+| Add more questions to aproximatly 40+ | Y | N/A |
+| How to play button that opens a div on how to play the quiz | Y | N/A |
+| Add no JavaScript Error text | Y | N/A |
+| Remove hover effect on mobile/touch devices where there is no active cursor to hover | Y | N/A |
+| Add a difficulty picker | N | One of the two ways I might take it in the future |
+| Maybe instead of difficulty checker having option to choose othe coding language quiz's | N |  One of the two ways I might take it in the future |
+| Backend database for score keeping | N | Will be added in the future when I have a good idea how to do it although I couldn't find a reliable way to make it work through github pages |
+| Seperate leaderboards based on difficulty or based on quiz type | N | Will be implemented at the time these features go live |
+| Add more questions to total 100+ | N | Was looing to continue it further in the future although I feel 40+ is sufficient for the time being |
+| Swap leaderboard to a table instead of a list although for now its as intended  | N | When difficulty or other quiz types are added this is the planed route and I will make it so you can switch between the leaderboards as well. Only one will show at a time. |
