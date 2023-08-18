@@ -27,16 +27,22 @@
                 <div id="home" class="flex-center flex-column">
                         <h1>JavaScript Showdown!</h1>
                         <noscript>
+                                <!-- Dispalys only when there is no JavaScript installed or it is disabled -->
                                 <div>
                                         <p class="noscript">This Website uses <strong>JavaScirpt</strong> you sre seeing this because your browser either doesnt support JavaScirpt or it is disabled. Please enable <strong>JavaScirpt</strong> or switch to a browser that supports it to continue</p>
                                 </div>
                         </noscript>
+                        <!-- Play Button -->
                         <a class="btn" href="quiz.html" aria-label="play button takes you to quiz page">Play <i class="fa-solid fa-gamepad"></i></a>
+                        <!-- Leaderboard Button -->
                         <a class="btn" href="leaderboard.html" aria-label="leaderboard button takes you to the leaderboard page">Leaderboard <i class="fa-solid fa-crown"></i></a>
+                        <!-- How To Play Button toggles visibility of how to play div -->
                         <button class="btn" aria-label="displays or hides the how to play text" id="how-to-play-btn">How to play</button>
                 </div>
+                <!-- Starts hidden altough if a user hits the how to play button it will toggle visibility -->
                 <div class="hidden how-to-div slow-open" id="how-to-play-div">
                         <h2 class="how-title">How to play</h2>
+                        <!-- Ordered list (Numbered) that explains how the site works in an order of events -->
                         <ol>
                                 <li class="how-txt">For best experiance on mobile devices ensure you are using portrait mode.</li>
                                 <li class="how-txt">Click Play and wait for quiz to load.</li>
@@ -47,6 +53,7 @@
                                 <li class="how-txt">Once last question is complete the quiz will end.</li>
                                 <li class="how-txt">If you wish to save your score, input your username and hit save this will return you to the menu and save your score.</li>
                         </ol>
+                        <!-- Unordered List that explains some core functionality out side of general order of events -->
                         <ul class="how-txt">
                                 <li class="how-txt">If you wish to retun to menu at any point hit the menu or home buttons.</li>
                                 <li class="how-txt">After the quiz there is a button to play game again and it will launches the quiz again.</li>
@@ -54,27 +61,34 @@
                         </ul>
                 </div>
         </div>
+        <!-- Div only diplays if certain Javascript conditions are met dealing with screen size and orientation -->
         <div id="rotate-message" class="container" style="display: none;">
                 <p>Please rotate your device to portrait mode.<br> If you feel your getting this in error please the email author at:<br>jhummel001@gmail.com</p>
         </div>
         </main>
         <footer>
+                <!-- Navigation footer for the author links -->
                 <nav aria-label="Author social links">
+                        <!-- Github Link -->
                         <a href="https://github.com/Danger0101" title="Go to author github opens in new page" target="_blank" class="author-links" rel="author">
                                 <i class="fa-brands fa-square-github"></i>
                                 <span class="author-sub">Github</span>
                         </a>
+                        <!-- Linkedin Link -->
                         <a href="https://www.linkedin.com/in/jjohnhumm/" title="Go to author linkedin opens in new page" target="_blank" rel="author" class="author-links">
                                 <i class="fa-brands fa-linkedin"></i>
                                 <span class="author-sub">Linkedin</span>
                         </a>
+                        <!-- Twitch Link -->
                         <a href="https://www.twitch.tv/danger0101" title="Go to author twitch opens in new page" target="_blank" rel="author" class="author-links">
                                 <i class="fa-brands fa-twitch"></i>
                                 <span class="author-sub">Twitch</span>
                         </a>
                 </nav>
         </footer>
+        <!-- Main page script -->
         <script src="./assets/js/index.js"></script>
+        <!-- FontAwesome Script -->
         <script src="https://kit.fontawesome.com/1d9a80c5a4.js" crossorigin="anonymous"></script>
 </body>
 </html>

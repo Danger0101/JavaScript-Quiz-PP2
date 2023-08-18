@@ -25,6 +25,7 @@
        <main>
         <div class="container" id="main">
                 <noscript>
+                        <!-- Dispalys only when there is no JavaScript installed or it is disabled -->
                         <div>
                                 <p class="noscript">This Website uses <strong>JavaScirpt</strong> you sre seeing this because your browser either doesnt support JavaScirpt or it is disabled. Please enable <strong>JavaScirpt</strong> or switch to a browser that supports it to continue</p>
                         </div>
@@ -36,9 +37,11 @@
                         <h1>JavaScript Showdown!</h1>
                         <div id="hud">
                                 <div class="hud-item">
+                                        <!-- Question counter updates with JavaScript -->
                                         <p class="hud-prefix" id="progress-text">
                                                 <!-- Question: (question user is on) / (total questions) will update via JavaScript --> Progress Text
                                         </p>
+                                        <!-- Progress bar div updates with Javascript -->
                                         <div id="progress-bar">
                                                 <!-- Progress bar will start empty -->
                                                 <div id="progress-bar-full">
@@ -46,6 +49,7 @@
                                                 </div>
                                         </div>
                                 </div>
+                                <!-- Score div updates with JavaScript -->
                                 <div class="hud-item">
                                         <p class="hud-prefix">
                                                 Score:
@@ -75,27 +79,34 @@
                         <a href="index.html" class="btn menu-btn" aria-label="Menu button takes you back to the hompage">Menu</a>
                 </div>
         </div>
+        <!-- Div only diplays if certain Javascript conditions are met dealing with screen size and orientation -->
         <div id="rotate-message" class="container" style="display: none;">
                 <p>Please rotate your device to portrait mode.<br> If you feel your getting this in error please email the author at:<br>jhummel001@gmail.com</p>
         </div>
        </main>
        <footer>
+                <!-- Navigation footer for the author links -->
                 <nav aria-label="Author social links">
+                        <!-- Github Link -->
                         <a href="https://github.com/Danger0101" title="Go to author github opens in new page" target="_blank" class="author-links" rel="author">
                                 <i class="fa-brands fa-square-github"></i>
                                 <span class="author-sub">Github</span>
                         </a>
+                        <!-- Linkedin Link -->
                         <a href="https://www.linkedin.com/in/jjohnhumm/" title="Go to author linkedin opens in new page" target="_blank" rel="author" class="author-links">
                                 <i class="fa-brands fa-linkedin"></i>
                                 <span class="author-sub">Linkedin</span>
                         </a>
+                        <!-- Twitch Link -->
                         <a href="https://www.twitch.tv/danger0101" title="Go to author twitch opens in new page" target="_blank" rel="author" class="author-links">
                                 <i class="fa-brands fa-twitch"></i>
                                 <span class="author-sub">Twitch</span>
                         </a>
                 </nav>
         </footer>
+        <!-- Main page script -->
        <script src="assets/js/quiz.js"></script>
+       <!-- FontAwesome Script -->
        <script src="https://kit.fontawesome.com/1d9a80c5a4.js" crossorigin="anonymous"></script>
 </body>
 </html>
