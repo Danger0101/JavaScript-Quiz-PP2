@@ -132,6 +132,7 @@ Footer with social links to the author that open in new tabs.
 | Over responsive footer | There was a buggy CSS code using footer and anchor tags I removed it | Y |
 | Font was difficult to read for some users | Replaced font with a more user friendly font | Y |
 | Hover effect remains active after selecting an answer and next question is loading | Added media querry to remove hover effect on touch devices | Y |
+| Hover effect disabled on all devices | Added missing media querry to the css | Y |
 
 ---
 
