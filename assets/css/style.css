@@ -399,8 +399,10 @@ footer {
         }
 }
 /* Remove hover effect on touch devices */
-.btn:hover, .choice-container:hover {
-        cursor: default;
-        transform: none;
-        transition: none;
+@media (hover:none) {
+        .btn:hover, .choice-container:hover {
+                cursor: default;
+                transform: none;
+                transition: none;
+        }
 }
