@@ -58,30 +58,31 @@ This appears while quiz loads then disapears.
 ---
 ### End Page
 
-Page will load and show your score where you will be able to save your score to the leaderboard. There is a input field for the username and a submit button to save the score.
+The page will load and display your score, allowing you to save it to the leaderboard.
+
 ![End Page](./assets/images/readme/features/end.png)
 ---
 ### Leaderboard Page
 
-This will show the leaderboard data upon load.
+This page will display the leaderboard data upon loading.
 
 ![Leaderboard Page](./assets/images/readme/features/lead.png)
 ---
 ### 404 Page
 
-This will show the leaderboard data upon load.
+This page will display an error message relating to error 404 page not found with a link back to indext.html
 
 ![404 Page](./assets/images/readme/features/404.png)
 ---
 ### No JavaScript
 
-This will show if browser doesn't support JavaScript or a user has disabled it.
+This will appear if the browser doesn't support JavaScript or if the user has disabled it
 
 ![No Java Script Warning](./assets/images/readme/features/nojs.png)
 ---
 ### Please Rotate
 
-This appears when users has mobile device is in landscape not currently catching all devices.
+This message appears when users have their mobile devices in landscape mode, though it may not cover all devices.
 
 ![Please Rotate](./assets/images/readme/features/rotate.png)
 ---
@@ -95,8 +96,8 @@ Footer with social links to the author that open in new tabs.
 ### How I tested
 | What test was completed | Passed? Y(yes)/N(no) |
 |:-----------------------:|:-------------------:|
-| Responiveness on Samsung A41 Phone Portrait | Y |
-| Responiveness on Samsung A41 Phone Landscape | Y |
+| Responsiveness on Samsung A41 Phone Portrait | Y |
+| Responsiveness on Samsung A41 Phone Landscape | Y |
 | Responsiveness on Teclast Tablet Portrait | Y |
 | Responsiveness on Teclast Tablet Lanscape | Y |
 | Responsive behaviours on over 12 mobile device settings in chrome dev tools | Y |
@@ -223,7 +224,7 @@ All Scripts checked with [JSHint](https://jshint.com/)
 ![Screencap signup.html lighthouse mobile](./assets/images/readme/lighthouse/404/404mobilelh.png)
 
 ## Deployment
-Used github pages to bring the site to life [View Site here](https://danger0101.github.io/JavaScript-Quiz-PP2/index.html)
+Used GitHub Pages to bring the site to life [View The Site Here](https://danger0101.github.io/JavaScript-Quiz-PP2/index.html)
 
 ## Technology used
 - [HTML](https://www.w3schools.com/html/default.asp)
@@ -261,8 +262,9 @@ Used github pages to bring the site to life [View Site here](https://danger0101.
 **Code related**
 - [My project one](https://github.com/Danger0101/Meaningful_Careers_P1) for structure of this reademe file
 
-- My previous assessor for ideas on the readme file. Sorry do to the nature of assessing I have no idea who you are but thank you for the invaluable advice.
+- My previous assessor for ideas on the readme file and the footer issues PP1 had. Sorry do to the nature of assessing I have no idea who you are but thank you for the invaluable advice.
 
+**Other Notible Mentions**
 - [W3Schools](https://www.w3schools.com/) for inspiration on the loading CSS for use on quiz page and to find out uses for all type of varriables and inspiration to the questions. Invaluable tool so much knowledge for freee its crazy.
 
 - [My wife](https://www.twitch.tv/flame_121) who’s been supper supportive of this change in career for me and just being out right amazing we will get her into this one way or another I am sure.
@@ -272,12 +274,12 @@ Used github pages to bring the site to life [View Site here](https://danger0101.
 ## Future feature ideas
 | **Features to add** | **Added Y(yes)/N(no)** | **Why not added?** |
 |:-------------------:|:--------------------:|:-------:|
-| Pages for menu, leaderboard, quiz, and an end page | Y | N/A |
+| Pages for the menu, leaderboard, quiz, and end page | Y | N/A |
 | Fifteen Quiz questions to start | Y | N/A |
 | HUD to show score and question progress | Y | N/A |
 | Leaderboard which uses local storage (svae/load) | Y | N/A |
 | Loader to display whil quiz loads up | Y | N/A |
-| Footer with links to author | Y | N/A |
+| Footer with author links | Y | N/A |
 | Add more questions to aproximatly 40+ | Y | N/A |
 | How to play button that opens a div on how to play the quiz | Y | N/A |
 | Add no JavaScript Error text | Y | N/A |
