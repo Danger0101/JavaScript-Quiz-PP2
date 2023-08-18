@@ -60,7 +60,7 @@ h6 {
 .container {
         padding: 2rem;
         width: 100vw;
-        min-height: calc(100vh - 1rem);
+        min-height: calc(100vh - 11rem);
         display: flex;
         justify-content: center;
         align-items: center;
