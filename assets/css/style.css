@@ -248,7 +248,7 @@ input {
         transform: scale(1.025);
 }
 /* Footer */
-footer {
+footer nav {
         margin: 0 auto;
         display: flex;
         justify-content: center;
