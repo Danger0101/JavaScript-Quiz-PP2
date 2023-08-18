@@ -27,6 +27,7 @@ fetch('assets/json/questions.json').then(res => {
 });
 /** Question bonus is point earned when correct and 
  * The max questions is how many questions are pulled
+ * For user to answer.
 */
 const correctBonus = 10;
 const maxQuestions = 10;
